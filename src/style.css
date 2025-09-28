@@ -13,7 +13,7 @@
   position: relative;
   overflow: hidden;
   white-space: nowrap;
-  height: 80px;
+  height: 70px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -49,18 +49,18 @@
 
 .logo-item {
   flex-shrink: 0;
-  margin-right: 4rem;
+  margin-right: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 160px;
-  height: 80px;
-  padding: 1rem;
+  width: auto;
+  height: 60px;
+  padding: 0.5rem 1rem;
 }
 
 .logo-img {
-  max-width: 140px;
-  max-height: 70px;
+  max-width: 120px;
+  max-height: 50px;
   object-fit: contain;
 }
 
@@ -78,12 +78,12 @@
 
 .marquee-row::before {
   left: 0;
-  background: linear-gradient(to right, #0059a7, transparent);
+  background: linear-gradient(to right, #ffffff, transparent);
 }
 
 .marquee-row::after {
   right: 0;
-  background: linear-gradient(to left, #0059a7, transparent);
+  background: linear-gradient(to left, #ffffff, transparent);
 }
 
 /* Keen Slider Custom Styles */
