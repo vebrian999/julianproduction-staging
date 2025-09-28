@@ -6,15 +6,9 @@
     <link rel="stylesheet" href="./src/output.css" />
     <link rel="stylesheet" href="./src/style.css" />
     <link rel="icon" type="image/x-icon" href="./src/img/favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <!-- Keen Slider CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" />
     <title>Julian Production | We Bring Ideas to Life</title>
   </head>
   <body>
@@ -23,171 +17,62 @@
         <div class="flex justify-between items-center h-16">
           <!-- Logo -->
           <div class="flex items-center">
-            <img
-              src="./src/img/logo.png"
-              alt="Julian Production"
-              class="w-36"
-            />
+            <img src="./src/img/logo.png" alt="Julian Production" class="w-36" />
           </div>
 
           <!-- Desktop Navigation -->
           <div class="hidden lg:block">
             <div class="relative border border-[#B8D4ED] rounded-full p-1.5">
               <div class="flex">
-                <a
-                  href="index.html"
-                  class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary"
-                  data-nav="home"
-                >
-                  Home
-                </a>
-                <a
-                  href="about-us.html"
-                  class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary"
-                  data-nav="about"
-                >
-                  About
-                </a>
-                <a
-                  href="service.html"
-                  class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary"
-                  data-nav="service"
-                >
-                  Service
-                </a>
-                <a
-                  href="portfolio.html"
-                  class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary"
-                  data-nav="portfolio"
-                >
-                  Portfolio
-                </a>
-                <a
-                  href="contact.html"
-                  class="nav-item active px-4 py-2 text-sm font-normal text-white bg-primary rounded-full transition-all duration-300 hover:text-white"
-                  data-nav="contact"
-                >
-                  Contact
-                </a>
+                <a href="index.html" class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary" data-nav="home"> Home </a>
+                <a href="about-us.html" class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary" data-nav="about"> About </a>
+                <a href="service.html" class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary" data-nav="service"> Service </a>
+                <a href="portfolio.html" class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary" data-nav="portfolio"> Portfolio </a>
+                <a href="contact.html" class="nav-item active px-4 py-2 text-sm font-normal text-white bg-primary rounded-full transition-all duration-300 hover:text-white" data-nav="contact"> Contact </a>
               </div>
             </div>
           </div>
 
           <!-- Desktop CTA Button -->
           <div class="hidden lg:flex items-center">
-            <a
-              href="contact.html"
-              class="bg-primary text-white px-6 py-3 text-sm font-normal rounded-full hover:bg-blue-700 transition-colors duration-200"
-            >
-              Hubungi Kami
-            </a>
+            <a href="contact.html" class="bg-primary text-white px-6 py-3 text-sm font-normal rounded-full hover:bg-blue-700 transition-colors duration-200"> Hubungi Kami </a>
           </div>
 
           <!-- Mobile Menu Button -->
           <div class="lg:hidden">
-            <button
-              id="mobile-menu-button"
-              class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200"
-            >
-              <svg
-                class="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                ></path>
+            <button id="mobile-menu-button" class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
             </button>
           </div>
         </div>
 
         <!-- Mobile Navigation Menu - Full Screen -->
-        <div
-          id="mobile-menu"
-          class="lg:hidden fixed inset-0 z-40 bg-white transform transition-all duration-300 ease-in-out opacity-0 -translate-y-full"
-        >
+        <div id="mobile-menu" class="lg:hidden fixed inset-0 z-40 bg-white transform transition-all duration-300 ease-in-out opacity-0 -translate-y-full">
           <div class="flex flex-col h-full">
             <!-- Header with Logo and Close Button -->
-            <div
-              class="flex justify-between items-center p-4 border-b border-gray-200"
-            >
-              <img
-                src="./src/img/logo.png"
-                alt="Julian Production"
-                class="w-32"
-              />
-              <button
-                id="mobile-menu-close"
-                class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200"
-              >
-                <svg
-                  class="w-8 h-8"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M6 18L18 6M6 6l12 12"
-                  ></path>
+            <div class="flex justify-between items-center p-4 border-b border-gray-200">
+              <img src="./src/img/logo.png" alt="Julian Production" class="w-32" />
+              <button id="mobile-menu-close" class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                 </svg>
               </button>
             </div>
 
             <!-- Navigation Links -->
             <div class="flex-1 flex flex-col justify-center px-8 space-y-8">
-              <a
-                href="index.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="home"
-              >
-                Home
-              </a>
-              <a
-                href="about-us.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="about"
-              >
-                About
-              </a>
-              <a
-                href="service.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="service"
-              >
-                Service
-              </a>
-              <a
-                href="portfolio.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="portfolio"
-              >
-                Portfolio
-              </a>
-              <a
-                href="contact.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="contact"
-              >
-                Contact
-              </a>
+              <a href="index.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="home"> Home </a>
+              <a href="about-us.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="about"> About </a>
+              <a href="service.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="service"> Service </a>
+              <a href="portfolio.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="portfolio"> Portfolio </a>
+              <a href="contact.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="contact"> Contact </a>
             </div>
 
             <!-- CTA Button -->
             <div class="p-8">
-              <a
-                href="contact.html"
-                class="mobile-cta block w-full text-center bg-primary text-white px-8 py-4 text-lg font-medium rounded-full hover:bg-blue-700 transition-colors duration-200"
-              >
-                Hubungi Kami
-              </a>
+              <a href="contact.html" class="mobile-cta block w-full text-center bg-primary text-white px-8 py-4 text-lg font-medium rounded-full hover:bg-blue-700 transition-colors duration-200"> Hubungi Kami </a>
             </div>
           </div>
         </div>
@@ -252,11 +137,7 @@
 
         // Close mobile menu when clicking outside
         document.addEventListener("click", function (e) {
-          if (
-            isMobileMenuOpen &&
-            !mobileMenu.contains(e.target) &&
-            !mobileMenuButton.contains(e.target)
-          ) {
+          if (isMobileMenuOpen && !mobileMenu.contains(e.target) && !mobileMenuButton.contains(e.target)) {
             hideMobileMenu();
           }
         });
@@ -354,232 +235,132 @@
           <div class="text-center mb-12">
             <!-- Badge -->
             <div class="inline-flex items-center justify-center mb-6">
-              <div
-                class="flex items-center bg-[#F0F8FF] border border-[#B8D4ED] rounded-full px-4 py-2"
-              >
-                <div
-                  class="w-3 h-3 bg-primary border-[2.5px] border-[#B8D4ED] rounded-full mr-3"
-                ></div>
+              <div class="flex items-center bg-[#F0F8FF] border border-[#B8D4ED] rounded-full px-4 py-2">
+                <div class="w-3 h-3 bg-primary border-[2.5px] border-[#B8D4ED] rounded-full mr-3"></div>
                 <span class="text-sm font-medium text-primary">Contact Us</span>
               </div>
             </div>
 
             <!-- Title -->
-            <h2
-              class="text-3xl lg:text-4xl font-semibold leading-tight mb-6 text-neutral-900"
-            >
-              Let's Plan Your Perfect Event
-            </h2>
+            <h2 class="text-3xl lg:text-5xl font-semibold leading-tight mb-6 text-primary">Let's Plan <span class="text-neutral-900">Your Perfect Event</span></h2>
 
             <!-- Description -->
-            <p
-              class="text-neutral-700 text-base max-w-3xl mx-auto leading-relaxed"
-            >
-              Ready to bring your vision to life? Get in touch with us today and
-              let's start planning an unforgettable experience together.
-            </p>
+            <p class="text-neutral-700 text-base max-w-3xl mx-auto leading-relaxed">Ready to bring your vision to life? Get in touch with us today and let's start planning an unforgettable experience together.</p>
           </div>
 
           <!-- Contact Form and Info Grid -->
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <!-- Left Column - Contact Form -->
-            <div
-              class="bg-white rounded-3xl border border-neutral-200 p-8 shadow-sm"
-            >
-              <h3 class="text-2xl font-semibold text-neutral-900 mb-8">
-                Get Your Free Quote
-              </h3>
+            <div class="bg-white rounded-3xl border border-neutral-200 p-8 shadow-sm">
+              <h3 class="text-4xl font-semibold text-neutral-900 mb-8 pb-4 border-b-2 border-neutral-200">Get Your Free Quote</h3>
 
               <form class="space-y-6">
                 <!-- Name and Phone Row -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <!-- Full Name -->
                   <div>
-                    <label
-                      for="fullName"
-                      class="block text-sm font-medium text-neutral-700 mb-3"
-                    >
-                      Full Name
-                    </label>
+                    <label for="fullName" class="block text-lg font-normal text-neutral-900 mb-2"> Full Name </label>
                     <input
                       type="text"
                       id="fullName"
                       name="fullName"
                       placeholder="Joe Satriani"
-                      class="w-full px-4 py-3 border border-neutral-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-200 placeholder-neutral-400 text-neutral-900"
-                    />
+                      class="w-full px-4 py-4 bg-neutral-50 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-200 placeholder-neutral-400 text-neutral-900" />
                   </div>
 
                   <!-- Phone Number -->
                   <div>
-                    <label
-                      for="phoneNumber"
-                      class="block text-sm font-medium text-neutral-700 mb-3"
-                    >
-                      Phone Number
-                    </label>
+                    <label for="phoneNumber" class="block text-lg font-normal text-neutral-900 mb-2"> Phone Number </label>
                     <input
                       type="tel"
                       id="phoneNumber"
                       name="phoneNumber"
                       placeholder="Joe Satriani"
-                      class="w-full px-4 py-3 border border-neutral-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-200 placeholder-neutral-400 text-neutral-900"
-                    />
+                      class="w-full px-4 py-4 bg-neutral-50 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-200 placeholder-neutral-400 text-neutral-900" />
                   </div>
                 </div>
 
                 <!-- Email Address -->
                 <div>
-                  <label
-                    for="emailAddress"
-                    class="block text-sm font-medium text-neutral-700 mb-3"
-                  >
-                    Email Address
-                  </label>
+                  <label for="emailAddress" class="block text-lg font-normal text-neutral-900 mb-2"> Email Address </label>
                   <input
                     type="email"
                     id="emailAddress"
                     name="emailAddress"
                     placeholder="Joe Satriani"
-                    class="w-full px-4 py-3 border border-neutral-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-200 placeholder-neutral-400 text-neutral-900"
-                  />
+                    class="w-full px-4 py-4 bg-neutral-50 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-200 placeholder-neutral-400 text-neutral-900" />
                 </div>
 
                 <!-- Event Details -->
                 <div>
-                  <label
-                    for="eventDetails"
-                    class="block text-sm font-medium text-neutral-700 mb-3"
-                  >
-                    Event Details
-                  </label>
+                  <label for="eventDetails" class="block text-lg font-normal text-neutral-900 mb-2"> Event Details </label>
                   <textarea
                     id="eventDetails"
                     name="eventDetails"
                     rows="5"
                     placeholder="Please describe your event requirements, date, venue, expected attendees, and any special requests..."
-                    class="w-full px-4 py-3 border border-neutral-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-200 placeholder-neutral-400 text-neutral-900 resize-none"
-                  ></textarea>
+                    class="w-full px-4 py-4 bg-neutral-50 rounded-xl focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-200 placeholder-neutral-400 text-neutral-900 resize-none"></textarea>
                 </div>
 
                 <!-- Submit Button -->
-                <button
-                  type="submit"
-                  class="w-full bg-neutral-900 text-white py-4 px-6 rounded-full font-medium hover:bg-neutral-800 transition-colors duration-200 focus:ring-2 focus:ring-neutral-900 focus:ring-offset-2"
-                >
+                <button type="submit" class="w-full bg-primary-500 text-white py-4 px-6 rounded-full font-medium hover:bg-primary-900 transition-colors duration-200 focus:ring-2 focus:ring-primary-500 focus:ring-offset-2">
                   Send Inquiry
                 </button>
               </form>
             </div>
 
             <!-- Right Column - Contact Information -->
-            <div
-              class="bg-white rounded-3xl border border-neutral-200 p-8 shadow-sm"
-            >
-              <h3 class="text-2xl font-semibold text-neutral-900 mb-8">
-                Contact Information
-              </h3>
+            <div class="bg-primary-50 rounded-3xl p-8 shadow-sm">
+              <h3 class="text-4xl font-semibold text-neutral-900 mb-8 pb-4 border-b-2 border-primary-100">Contact Information</h3>
 
               <div class="space-y-8">
                 <!-- Phone -->
                 <div class="flex items-start space-x-4">
-                  <div
-                    class="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
+                  <div class="w-12 h-12 bg-primary-500 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path
-                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
-                      ></path>
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                     </svg>
                   </div>
                   <div>
-                    <h4 class="text-lg font-semibold text-neutral-900 mb-2">
-                      Phone
-                    </h4>
+                    <h4 class="text-lg font-semibold text-neutral-900 mb-2">Phone</h4>
                     <p class="text-neutral-600">+62 8180-274-7554</p>
                   </div>
                 </div>
 
                 <!-- Email -->
                 <div class="flex items-start space-x-4">
-                  <div
-                    class="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path
-                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-                      ></path>
+                  <div class="w-12 h-12 bg-primary-500 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                       <polyline points="22,6 12,13 2,6"></polyline>
                     </svg>
                   </div>
                   <div>
-                    <h4 class="text-lg font-semibold text-neutral-900 mb-2">
-                      Email Address
-                    </h4>
+                    <h4 class="text-lg font-semibold text-neutral-900 mb-2">Email Address</h4>
                     <p class="text-neutral-600">mahattamakreasi@gmail.com</p>
                   </div>
                 </div>
 
                 <!-- Address -->
                 <div class="flex items-start space-x-4">
-                  <div
-                    class="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path
-                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
-                      ></path>
+                  <div class="w-12 h-12 bg-primary-500 rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                       <circle cx="12" cy="10" r="3"></circle>
                     </svg>
                   </div>
                   <div>
-                    <h4 class="text-lg font-semibold text-neutral-900 mb-2">
-                      Address
-                    </h4>
-                    <p class="text-neutral-600 leading-relaxed">
-                      Jl. Salak No. 17 RT 16/ RW 35, Tempel Sari Banjeng,
-                      Maguwoharjo, Depok, Sleman, Yogyakarta 55285
-                    </p>
+                    <h4 class="text-lg font-semibold text-neutral-900 mb-2">Address</h4>
+                    <p class="text-neutral-600 leading-relaxed">Jl. Salak No. 17 RT 16/ RW 35, Tempel Sari Banjeng, Maguwoharjo, Depok, Sleman, Yogyakarta 55285</p>
                   </div>
                 </div>
               </div>
 
               <!-- Business Hours -->
-              <div class="mt-10 pt-8 border-t border-neutral-200">
-                <div class="bg-neutral-50 rounded-2xl p-6 text-center">
-                  <h5 class="font-semibold text-neutral-900 mb-3">
-                    Business Hours
-                  </h5>
+              <div class="mt-10 pt-8 border-t-2 border-primary-100">
+                <div class="bg-white rounded-2xl p-6 text-center">
+                  <h5 class="font-semibold text-neutral-900 mb-3">Business Hours</h5>
                   <p class="text-neutral-600 text-sm leading-relaxed">
                     Monday - Friday: 9:00 AM - 6:00 PM<br />
                     Saturday: 9:00 AM - 4:00 PM<br />
@@ -592,352 +373,6 @@
         </div>
       </section>
 
-      <!-- Testimonial Section -->
-      <section id="testimonial" class="py-20 bg-[#F6FBFF]">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <!-- Header -->
-          <div class="text-center mb-16">
-            <!-- Badge -->
-            <div class="inline-flex items-center justify-center mb-6">
-              <div
-                class="flex items-center bg-[#F0F8FF] border border-[#B8D4ED] rounded-full px-4 py-2"
-              >
-                <div
-                  class="w-3 h-3 bg-primary border-[2.5px] border-[#B8D4ED] rounded-full mr-3"
-                ></div>
-                <span class="text-sm font-medium text-primary"
-                  >Testimonial</span
-                >
-              </div>
-            </div>
-
-            <!-- Title -->
-            <h2
-              class="text-3xl lg:text-4xl font-bold leading-tight mb-6 text-gray-800"
-            >
-              <span class="text-primary">Everything You Need</span>
-              for Your Event
-            </h2>
-
-            <!-- Description -->
-            <p
-              class="text-gray-600 text-base max-w-2xl mx-auto leading-relaxed"
-            >
-              From initial concept to final execution, we provide comprehensive
-              event solutions that ensure your vision comes to life flawlessly.
-            </p>
-          </div>
-
-          <!-- Testimonials Grid -->
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Testimonial Card 1 -->
-            <div
-              class="bg-white rounded-2xl p-6 border border-[#B8D4ED] transition-all duration-300 group hover:-translate-y-2"
-            >
-              <!-- Profile -->
-              <div class="flex items-center mb-4">
-                <div
-                  class="w-12 h-12 rounded-full overflow-hidden mr-3 flex-shrink-0"
-                >
-                  <img
-                    src="https://images.unsplash.com/photo-1724064710352-3cbcee4bc3a8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="Yuli"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div>
-                  <h4 class="font-semibold text-gray-800 text-base">Yuli</h4>
-                  <p class="text-gray-600 text-sm">Marketing Director</p>
-                </div>
-              </div>
-
-              <!-- Testimonial Content -->
-              <div class="space-y-4">
-                <p class="text-[#404040] leading-relaxed text-sm">
-                  "Julian Production exceeded our expectations. Their attention
-                  to detail and professional execution made our product launch
-                  event absolutely memorable. The team was responsive and
-                  creative throughout the entire process."
-                </p>
-
-                <!-- Star Rating -->
-                <div class="flex items-center space-x-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial Card 2 -->
-            <div
-              class="bg-white rounded-2xl p-6 border border-[#B8D4ED] transition-all duration-300 group hover:-translate-y-2"
-            >
-              <!-- Profile -->
-              <div class="flex items-center mb-4">
-                <div
-                  class="w-12 h-12 rounded-full overflow-hidden mr-3 flex-shrink-0"
-                >
-                  <img
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face"
-                    alt="Sarah"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div>
-                  <h4 class="font-semibold text-gray-800 text-base">Sarah</h4>
-                  <p class="text-gray-600 text-sm">Brand Manager</p>
-                </div>
-              </div>
-
-              <!-- Testimonial Content -->
-              <div class="space-y-4">
-                <p class="text-[#404040] leading-relaxed text-sm">
-                  "Working with Julian Production was a game-changer for our
-                  brand activation campaign. They understood our vision
-                  perfectly and delivered an engaging experience that resonated
-                  with our target audience."
-                </p>
-
-                <!-- Star Rating -->
-                <div class="flex items-center space-x-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial Card 3 -->
-            <div
-              class="bg-white rounded-2xl p-6 border border-[#B8D4ED] transition-all duration-300 group hover:-translate-y-2"
-            >
-              <!-- Profile -->
-              <div class="flex items-center mb-4">
-                <div
-                  class="w-12 h-12 rounded-full overflow-hidden mr-3 flex-shrink-0"
-                >
-                  <img
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
-                    alt="Joko"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div>
-                  <h4 class="font-semibold text-gray-800 text-base">Joko</h4>
-                  <p class="text-gray-600 text-sm">Event Coordinator</p>
-                </div>
-              </div>
-
-              <!-- Testimonial Content -->
-              <div class="space-y-4">
-                <p class="text-[#404040] leading-relaxed text-sm">
-                  "From planning to execution, Julian Production demonstrated
-                  exceptional professionalism. Our corporate gathering was
-                  seamless, and our guests were thoroughly impressed with the
-                  quality of service."
-                </p>
-
-                <!-- Star Rating -->
-                <div class="flex items-center space-x-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          // Add hover effects for testimonial cards
-          const testimonialCards = document.querySelectorAll(".group");
-
-          testimonialCards.forEach((card) => {
-            card.addEventListener("mouseenter", function () {
-              this.style.transform = "translateY(-8px)";
-            });
-
-            card.addEventListener("mouseleave", function () {
-              this.style.transform = "translateY(0)";
-            });
-          });
-        });
-      </script>
-
       <!-- FAQ Section -->
       <section id="faq" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -946,151 +381,72 @@
             <div class="space-y-8">
               <!-- Badge -->
               <div class="inline-flex items-center justify-center">
-                <div
-                  class="flex items-center bg-[#F0F8FF] border border-[#B8D4ED] rounded-full px-4 py-2"
-                >
-                  <div
-                    class="w-3 h-3 bg-primary border-[2.5px] border-[#B8D4ED] rounded-full mr-3"
-                  ></div>
+                <div class="flex items-center bg-primary-50 border border-primary-100 rounded-full px-4 py-2">
+                  <div class="w-3 h-3 bg-primary-500 border-[2.5px] border-primary-100 rounded-full mr-3"></div>
                   <span class="text-sm font-medium text-primary">FAQs</span>
                 </div>
               </div>
 
               <!-- Title -->
-              <h2
-                class="text-3xl lg:text-4xl font-semibold leading-tight text-[#171717]"
-              >
+              <h2 class="text-3xl lg:text-4xl font-semibold leading-tight text-neutral-900">
                 <span class="text-primary">Want your questions</span>
                 answered quickly?
               </h2>
 
               <!-- Description -->
-              <p
-                class="text-neutral-700 text-base font-medium max-w-2xl leading-relaxed"
-              >
-                Take a look at our FAQ's below, or book a call above.
-              </p>
+              <p class="text-neutral-700 text-base font-medium max-w-2xl leading-relaxed">Take a look at our FAQ's below, or book a call above.</p>
             </div>
 
             <!-- Right Content - FAQ Accordion -->
             <div class="space-y-4">
               <!-- FAQ Item 1 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq1"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Layanan apa saja yang Julian Production tawarkan?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
+              <div class="bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none" data-target="faq1">
+                  <h3 class="text-lg font-normal text-neutral-700 pr-4">Layanan apa saja yang Julian Production tawarkan?</h3>
+                  <svg class="faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <div
-                  id="faq1"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
+                <div id="faq1" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
                   <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Kami menangani event B2B dan B2C: Wedding, Corporate
-                      Events (gathering, seminar, product launch), Exhibition &
-                      Concert, serta Private Events (ulang tahun, engagement).
-                      Kami juga menyediakan jasa promosi, concept developing,
-                      dan tour & travel support.
+                    <p class="text-neutral-700 leading-relaxed">
+                      Kami menangani event B2B dan B2C: Wedding, Corporate Events (gathering, seminar, product launch), Exhibition & Concert, serta Private Events (ulang tahun, engagement). Kami juga menyediakan jasa promosi, concept
+                      developing, dan tour & travel support.
                     </p>
                   </div>
                 </div>
               </div>
 
               <!-- FAQ Item 2 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq2"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Bagaimana cara minta penawaran (quote)?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
+              <div class="bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none" data-target="faq2">
+                  <h3 class="text-lg font-normal text-neutral-700 pr-4">Bagaimana cara minta penawaran (quote)?</h3>
+                  <svg class="faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <div
-                  id="faq2"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
+                <div id="faq2" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
                   <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Anda dapat menghubungi kami melalui WhatsApp, email, atau
-                      mengisi form konsultasi di website kami. Tim kami akan
-                      merespon dalam 24 jam dan mengatur meeting untuk membahas
-                      kebutuhan acara Anda secara detail sebelum memberikan
-                      penawaran yang sesuai.
+                    <p class="text-neutral-700 leading-relaxed">
+                      Anda dapat menghubungi kami melalui WhatsApp, email, atau mengisi form konsultasi di website kami. Tim kami akan merespon dalam 24 jam dan mengatur meeting untuk membahas kebutuhan acara Anda secara detail sebelum
+                      memberikan penawaran yang sesuai.
                     </p>
                   </div>
                 </div>
               </div>
 
               <!-- FAQ Item 3 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq3"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Berapa lama lead time yang dibutuhkan?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
+              <div class="bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none" data-target="faq3">
+                  <h3 class="text-lg font-normal text-neutral-700 pr-4">Berapa lama lead time yang dibutuhkan?</h3>
+                  <svg class="faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <div
-                  id="faq3"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
+                <div id="faq3" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
                   <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Lead time tergantung skala acara. Untuk event kecil
-                      minimal 2 minggu, event menengah 1-2 bulan, dan event
-                      besar 3-6 bulan. Namun kami juga bisa menangani event
-                      dadakan dengan koordinasi intensif, tergantung
+                    <p class="text-neutral-700 leading-relaxed">
+                      Lead time tergantung skala acara. Untuk event kecil minimal 2 minggu, event menengah 1-2 bulan, dan event besar 3-6 bulan. Namun kami juga bisa menangani event dadakan dengan koordinasi intensif, tergantung
                       ketersediaan tim dan vendor.
                     </p>
                   </div>
@@ -1098,40 +454,17 @@
               </div>
 
               <!-- FAQ Item 4 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq4"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Apa saja yang termasuk dalam paket layanan?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
+              <div class="bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none" data-target="faq4">
+                  <h3 class="text-lg font-normal text-neutral-700 pr-4">Apa saja yang termasuk dalam paket layanan?</h3>
+                  <svg class="faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <div
-                  id="faq4"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
+                <div id="faq4" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
                   <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Paket layanan mencakup konsultasi awal, perencanaan event,
-                      koordinasi vendor, manajemen timeline, setup venue,
-                      koordinator pada hari H, dokumentasi, dan evaluasi
-                      post-event. Paket dapat disesuaikan dengan kebutuhan dan
+                    <p class="text-neutral-700 leading-relaxed">
+                      Paket layanan mencakup konsultasi awal, perencanaan event, koordinasi vendor, manajemen timeline, setup venue, koordinator pada hari H, dokumentasi, dan evaluasi post-event. Paket dapat disesuaikan dengan kebutuhan dan
                       budget klien.
                     </p>
                   </div>
@@ -1139,41 +472,18 @@
               </div>
 
               <!-- FAQ Item 5 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq5"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Apakah melayani event di luar Yogyakarta?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
+              <div class="bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none" data-target="faq5">
+                  <h3 class="text-lg font-normal text-neutral-700 pr-4">Apakah melayani event di luar Yogyakarta?</h3>
+                  <svg class="faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <div
-                  id="faq5"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
+                <div id="faq5" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
                   <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Ya, kami melayani event di seluruh Indonesia. Untuk event
-                      di luar Yogyakarta, akan ada tambahan biaya transportasi
-                      dan akomodasi tim. Kami memiliki jaringan vendor partner
-                      di berbagai kota untuk memastikan kualitas pelayanan tetap
-                      optimal.
+                    <p class="text-neutral-700 leading-relaxed">
+                      Ya, kami melayani event di seluruh Indonesia. Untuk event di luar Yogyakarta, akan ada tambahan biaya transportasi dan akomodasi tim. Kami memiliki jaringan vendor partner di berbagai kota untuk memastikan kualitas
+                      pelayanan tetap optimal.
                     </p>
                   </div>
                 </div>
@@ -1195,14 +505,12 @@
               const parentDiv = this.parentElement;
 
               // Check if this FAQ is currently open
-              const isOpen =
-                content.style.maxHeight && content.style.maxHeight !== "0px";
+              const isOpen = content.style.maxHeight && content.style.maxHeight !== "0px";
 
               // Close all other FAQs
               faqTriggers.forEach((otherTrigger) => {
                 if (otherTrigger !== this) {
-                  const otherTargetId =
-                    otherTrigger.getAttribute("data-target");
+                  const otherTargetId = otherTrigger.getAttribute("data-target");
                   const otherContent = document.getElementById(otherTargetId);
                   const otherIcon = otherTrigger.querySelector(".faq-icon");
                   const otherParent = otherTrigger.parentElement;
@@ -1216,16 +524,12 @@
 
                   // Reset styling to closed state
                   if (otherParent.classList.contains("bg-primary")) {
-                    otherParent.className =
-                      "bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
+                    otherParent.className = "bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
                     const otherTitle = otherTrigger.querySelector("h3");
-                    otherTitle.className =
-                      "text-lg font-normal text-[#404040] pr-4";
-                    otherIcon.className =
-                      "faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0";
-                    const otherContent =
-                      otherTrigger.nextElementSibling.querySelector("p");
-                    otherContent.className = "text-[#404040] leading-relaxed";
+                    otherTitle.className = "text-lg font-normal text-neutral-700 pr-4";
+                    otherIcon.className = "faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0";
+                    const otherContent = otherTrigger.nextElementSibling.querySelector("p");
+                    otherContent.className = "text-neutral-700 leading-relaxed";
                   }
                 }
               });
@@ -1237,14 +541,12 @@
                 icon.style.color = "#404040";
 
                 // Change to closed styling
-                parentDiv.className =
-                  "bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
+                parentDiv.className = "bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
                 const title = this.querySelector("h3");
-                title.className = "text-lg font-normal text-[#404040] pr-4";
-                icon.className =
-                  "faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0";
+                title.className = "text-lg font-normal text-neutral-700 pr-4";
+                icon.className = "faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0";
                 const contentText = this.nextElementSibling.querySelector("p");
-                contentText.className = "text-[#404040] leading-relaxed";
+                contentText.className = "text-neutral-700 leading-relaxed";
               } else {
                 // Open this FAQ
                 content.style.maxHeight = content.scrollHeight + "px";
@@ -1252,12 +554,10 @@
                 icon.style.color = "white";
 
                 // Change to open styling
-                parentDiv.className =
-                  "bg-primary rounded-2xl overflow-hidden shadow-lg transition-all duration-300";
+                parentDiv.className = "bg-primary rounded-2xl overflow-hidden shadow-lg transition-all duration-300";
                 const title = this.querySelector("h3");
                 title.className = "text-lg font-semibold text-white pr-4";
-                icon.className =
-                  "faq-icon w-6 h-6 text-white transform rotate-180 transition-transform duration-300 flex-shrink-0";
+                icon.className = "faq-icon w-6 h-6 text-white transform rotate-180 transition-transform duration-300 flex-shrink-0";
                 const contentText = this.nextElementSibling.querySelector("p");
                 contentText.className = "text-white leading-relaxed";
               }
@@ -1272,44 +572,27 @@
           <div class="relative rounded-3xl overflow-hidden shadow-2xl">
             <!-- Background Image -->
             <div class="absolute inset-0">
-              <img
-                src="./src/img/banner.jpg"
-                alt="Event Banner"
-                class="w-full h-full object-cover"
-              />
+              <img src="./src/img/banner.jpg" alt="Event Banner" class="w-full h-full object-cover" />
               <!-- Dark Overlay -->
-              <div
-                class="absolute inset-0"
-                style="background-color: #0c1c2a; opacity: 0.8"
-              ></div>
+              <div class="absolute inset-0" style="background-color: #0c1c2a; opacity: 0.8"></div>
             </div>
 
             <!-- Content -->
-            <div
-              class="relative z-10 px-8 py-16 sm:px-12 sm:py-20 lg:px-16 lg:py-24"
-            >
+            <div class="relative z-10 px-8 py-16 sm:px-12 sm:py-20 lg:px-16 lg:py-24">
               <div class="max-w-4xl">
                 <!-- Main Heading -->
-                <h2
-                  class="text-2xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6"
-                >
+                <h2 class="text-2xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6">
                   Ready to Create Your<br class="hidden sm:block" />
                   Success Story?
                 </h2>
 
                 <!-- Subtitle -->
-                <p
-                  class="text-base text-[#D4D4D4] leading-relaxed mb-10 max-w-2xl"
-                >
-                  Join our growing list of satisfied clients and let us bring
-                  your event vision to life.
-                </p>
+                <p class="text-base text-[#D4D4D4] leading-relaxed mb-10 max-w-2xl">Join our growing list of satisfied clients and let us bring your event vision to life.</p>
 
                 <!-- CTA Button -->
                 <div class="flex flex-col sm:flex-row gap-4">
                   <button
-                    class="bg-primary text-white px-6 py-4 rounded-full font-medium text-sm hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center justify-center"
-                  >
+                    class="bg-primary text-white px-6 py-4 rounded-full font-medium text-sm hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center justify-center">
                     Buat Event
                   </button>
                 </div>
@@ -1319,123 +602,101 @@
         </div>
       </section>
     </main>
-    <footer class="bg-[#0A192F] text-white">
-      <div class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-20 lg:py-24">
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 justify-between"
-        >
-          <!-- Company Information -->
-          <div class="lg:col-span-1">
-            <div class="flex flex-col space-y-4">
+    <footer class="bg-primary-900 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24">
+        <div class="flex flex-col lg:flex-row justify-between gap-16 lg:gap-20">
+          <!-- Left Side - Company Information -->
+          <div class="lg:max-w-sm">
+            <div class="flex flex-col space-y-6">
               <!-- Logo -->
               <div class="flex items-center">
-                <img
-                  src="./src/img/logo-white.png"
-                  alt="Julian Production Logo"
-                  class="h-8 w-auto"
-                />
+                <div class="flex items-center">
+                  <img src="./src/img/logo-white.png" alt="Logo" class="w-full" />
+                </div>
               </div>
 
               <!-- Description -->
-              <p class="text-white text-base leading-relaxed mb-6">
-                Professional event organizing services since 2020. We bring
-                ideas to life through creative and flawless execution.
-              </p>
+              <p class="text-neutral-300 text-base leading-relaxed">Professional event organizing services since 2020. We bring ideas to life through creative and flawless execution.</p>
 
               <!-- Social Media Icons -->
               <div class="flex space-x-4">
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                >
+                <a href="#" class="text-white hover:text-gray-300 transition-colors">
                   <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path
-                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
-                    />
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                   </svg>
                 </a>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                >
+                <a href="#" class="text-white hover:text-gray-300 transition-colors">
                   <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path
-                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-                    />
+                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                   </svg>
                 </a>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                >
+                <a href="#" class="text-white hover:text-gray-300 transition-colors">
                   <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path
-                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
-                    />
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                   </svg>
                 </a>
               </div>
             </div>
           </div>
 
-          <!-- Our Services -->
-          <div>
-            <h4 class="text-lg font-semibold text-white mb-6">Our Services</h4>
-            <ul class="space-y-3">
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >About Us</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >Blog</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
+          <!-- Right Side - Menu Sections -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12">
+            <!-- Navigation -->
+            <div>
+              <h4 class="text-2xl font-medium text-white mb-6">Navigation</h4>
+              <ul class="space-y-3">
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">About</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Service</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Contact</a>
+                </li>
+              </ul>
+            </div>
 
-          <!-- Legal -->
-          <div>
-            <h4 class="text-lg font-semibold text-white mb-6">Legal</h4>
-            <ul class="space-y-3">
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >Privacy Policy</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >Terms of Service</a
-                >
-              </li>
-            </ul>
-          </div>
+            <!-- Our Services -->
+            <div>
+              <h4 class="text-2xl font-medium text-white mb-6">Our Services</h4>
+              <ul class="space-y-3">
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Event Organizer</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Event Management</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Event Promotor</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Promotional Branding</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Conceptor</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Tour & Travel</a>
+                </li>
+              </ul>
+            </div>
 
-          <!-- Get Started -->
-          <div>
-            <h4 class="text-lg font-semibold text-white mb-6">Get Started</h4>
-            <div class="flex justify-center lg:justify-start">
-              <button
-                class="bg-primary text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-              >
-                Buat Event
-              </button>
+            <!-- Get Started -->
+            <div>
+              <h4 class="text-2xl font-medium text-white mb-6">Get Started</h4>
+              <div class="flex justify-start">
+                <button class="bg-primary text-white px-8 py-3 text-base font-medium rounded-full hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">Buat Event</button>
+              </div>
             </div>
           </div>
         </div>
@@ -1443,7 +704,7 @@
 
       <!-- Bottom Section -->
       <div class="border-t border-gray-600">
-        <div class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div class="text-center">
             <p class="text-white text-sm">© 2025. All rights reserved.</p>
           </div>
