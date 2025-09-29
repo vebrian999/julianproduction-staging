@@ -6,15 +6,9 @@
     <link rel="stylesheet" href="./src/output.css" />
     <link rel="stylesheet" href="./src/style.css" />
     <link rel="icon" type="image/x-icon" href="./src/img/favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <!-- Keen Slider CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" />
     <title>Julian Production | We Bring Ideas to Life</title>
   </head>
   <body>
@@ -23,171 +17,62 @@
         <div class="flex justify-between items-center h-16">
           <!-- Logo -->
           <div class="flex items-center">
-            <img
-              src="./src/img/logo.png"
-              alt="Julian Production"
-              class="w-36"
-            />
+            <img src="./src/img/logo.png" alt="Julian Production" class="w-36" />
           </div>
 
           <!-- Desktop Navigation -->
           <div class="hidden lg:block">
-            <div class="relative border border-[#B8D4ED] rounded-full p-1.5">
+            <div class="relative border border-primary-100 rounded-full p-1.5">
               <div class="flex">
-                <a
-                  href="index.html"
-                  class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary"
-                  data-nav="home"
-                >
-                  Home
-                </a>
-                <a
-                  href="about-us.html"
-                  class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary"
-                  data-nav="about"
-                >
-                  About
-                </a>
-                <a
-                  href="service.html"
-                  class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary"
-                  data-nav="service"
-                >
-                  Service
-                </a>
-                <a
-                  href="portfolio.html"
-                  class="nav-item active px-4 py-2 text-sm font-normal text-white bg-primary rounded-full transition-all duration-300 hover:text-white"
-                  data-nav="portfolio"
-                >
-                  Portfolio
-                </a>
-                <a
-                  href="contact.html"
-                  class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary"
-                  data-nav="contact"
-                >
-                  Contact
-                </a>
+                <a href="index.html" class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary" data-nav="home"> Home </a>
+                <a href="about-us.html" class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary" data-nav="about"> About </a>
+                <a href="service.html" class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary" data-nav="service"> Service </a>
+                <a href="portfolio.html" class="nav-item active px-4 py-2 text-sm font-normal text-white bg-primary rounded-full transition-all duration-300 hover:text-white" data-nav="portfolio"> Portfolio </a>
+                <a href="contact.html" class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary" data-nav="contact"> Contact </a>
               </div>
             </div>
           </div>
 
           <!-- Desktop CTA Button -->
           <div class="hidden lg:flex items-center">
-            <a
-              href="contact.html"
-              class="bg-primary text-white px-6 py-3 text-sm font-normal rounded-full hover:bg-blue-700 transition-colors duration-200"
-            >
-              Hubungi Kami
-            </a>
+            <a href="contact.html" class="bg-primary text-white px-6 py-3 text-sm font-normal rounded-full hover:bg-blue-700 transition-colors duration-200"> Hubungi Kami </a>
           </div>
 
           <!-- Mobile Menu Button -->
           <div class="lg:hidden">
-            <button
-              id="mobile-menu-button"
-              class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200"
-            >
-              <svg
-                class="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                ></path>
+            <button id="mobile-menu-button" class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
             </button>
           </div>
         </div>
 
         <!-- Mobile Navigation Menu - Full Screen -->
-        <div
-          id="mobile-menu"
-          class="lg:hidden fixed inset-0 z-40 bg-white transform transition-all duration-300 ease-in-out opacity-0 -translate-y-full"
-        >
+        <div id="mobile-menu" class="lg:hidden fixed inset-0 z-40 bg-white transform transition-all duration-300 ease-in-out opacity-0 -translate-y-full">
           <div class="flex flex-col h-full">
             <!-- Header with Logo and Close Button -->
-            <div
-              class="flex justify-between items-center p-4 border-b border-gray-200"
-            >
-              <img
-                src="./src/img/logo.png"
-                alt="Julian Production"
-                class="w-32"
-              />
-              <button
-                id="mobile-menu-close"
-                class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200"
-              >
-                <svg
-                  class="w-8 h-8"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M6 18L18 6M6 6l12 12"
-                  ></path>
+            <div class="flex justify-between items-center p-4 border-b border-gray-200">
+              <img src="./src/img/logo.png" alt="Julian Production" class="w-32" />
+              <button id="mobile-menu-close" class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                 </svg>
               </button>
             </div>
 
             <!-- Navigation Links -->
             <div class="flex-1 flex flex-col justify-center px-8 space-y-8">
-              <a
-                href="index.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="home"
-              >
-                Home
-              </a>
-              <a
-                href="about-us.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="about"
-              >
-                About
-              </a>
-              <a
-                href="service.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="service"
-              >
-                Service
-              </a>
-              <a
-                href="portfolio.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="portfolio"
-              >
-                Portfolio
-              </a>
-              <a
-                href="contact.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="contact"
-              >
-                Contact
-              </a>
+              <a href="index.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="home"> Home </a>
+              <a href="about-us.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="about"> About </a>
+              <a href="service.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="service"> Service </a>
+              <a href="portfolio.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="portfolio"> Portfolio </a>
+              <a href="contact.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="contact"> Contact </a>
             </div>
 
             <!-- CTA Button -->
             <div class="p-8">
-              <a
-                href="contact.html"
-                class="mobile-cta block w-full text-center bg-primary text-white px-8 py-4 text-lg font-medium rounded-full hover:bg-blue-700 transition-colors duration-200"
-              >
-                Hubungi Kami
-              </a>
+              <a href="contact.html" class="mobile-cta block w-full text-center bg-primary text-white px-8 py-4 text-lg font-medium rounded-full hover:bg-blue-700 transition-colors duration-200"> Hubungi Kami </a>
             </div>
           </div>
         </div>
@@ -252,11 +137,7 @@
 
         // Close mobile menu when clicking outside
         document.addEventListener("click", function (e) {
-          if (
-            isMobileMenuOpen &&
-            !mobileMenu.contains(e.target) &&
-            !mobileMenuButton.contains(e.target)
-          ) {
+          if (isMobileMenuOpen && !mobileMenu.contains(e.target) && !mobileMenuButton.contains(e.target)) {
             hideMobileMenu();
           }
         });
@@ -354,413 +235,271 @@
           <div class="mb-12">
             <!-- Badge -->
             <div class="inline-flex items-center mb-6">
-              <div
-                class="flex items-center bg-blue-50 border border-blue-200 rounded-full px-4 py-2"
-              >
-                <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                <span class="text-sm font-medium text-primary"
-                  >Our Portfolio</span
-                >
+              <div class="flex items-center bg-primary-50 border border-primary-100 rounded-full px-4 py-2">
+                <div class="w-3 h-3 bg-primary border-[2.5px] border-primary-100 rounded-full mr-3"></div>
+                <span class="text-sm font-medium text-primary">Our Portfolio</span>
               </div>
             </div>
 
             <!-- Title -->
-            <h2
-              class="text-3xl lg:text-4xl font-semibold leading-tight mb-6 text-neutral-900"
-            >
-              Moments We Bring to Life
-            </h2>
+            <h2 class="text-3xl lg:text-5xl font-semibold leading-tight mb-6 text-primary">Moments We <span class="text-neutral-900">Bring to Life</span></h2>
 
             <!-- Description -->
-            <p class="text-neutral-700 text-base leading-relaxed max-w-3xl">
-              Every event tells a story. Here are the celebrations we've turned
-              into lasting memories.
-            </p>
+            <p class="text-neutral-700 text-base leading-relaxed max-w-3xl">Every event tells a story. Here are the celebrations we've turned into lasting memories.</p>
           </div>
 
           <!-- Filter Tabs -->
-          <div class="flex gap-3 mb-12 overflow-x-auto scrollbar-hide">
+          <!-- Mobile Filter - Dropdown -->
+          <div class="lg:hidden mb-8">
+            <div class="relative">
+              <select
+                id="mobile-filter"
+                class="w-full bg-white border border-primary-100 rounded-xl px-4 py-3 text-sm font-medium text-neutral-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 appearance-none">
+                <option value="all">All Projects</option>
+                <option value="corporate">Corporate Events</option>
+                <option value="concerts">Concerts & Performances</option>
+                <option value="brand">Brand Activation</option>
+                <option value="hospitality">Hospitality & Relations</option>
+                <option value="sports">Sports Events</option>
+              </select>
+              <!-- Custom dropdown arrow -->
+              <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                <svg class="w-5 h-5 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Desktop Filter - Buttons -->
+          <div class="hidden lg:flex justify-between gap-3 mb-12 overflow-x-auto scrollbar-hide">
             <!-- All Projects - Active -->
             <button
-              class="portfolio-filter active bg-primary text-white px-8 py-3 rounded-full font-medium text-sm whitespace-nowrap transition-all duration-300 hover:bg-blue-700 flex-shrink-0"
-              data-filter="all"
-            >
+              class="portfolio-filter active bg-primary-500 text-white px-8 py-3 rounded-full border border-primary-500 font-medium text-sm whitespace-nowrap transition-all duration-300 hover:bg-primary-700 hover:text-white flex-shrink-0"
+              data-filter="all">
               All Projects
             </button>
 
             <!-- Corporate Events -->
             <button
-              class="portfolio-filter bg-blue-50 text-primary px-8 py-3 rounded-full font-medium text-sm whitespace-nowrap transition-all duration-300 hover:bg-blue-100 flex-shrink-0"
-              data-filter="corporate"
-            >
+              class="portfolio-filter bg-primary-50 text-[#5C9CD5] px-8 py-3 rounded-full border border-primary-100 font-medium text-sm whitespace-nowrap transition-all duration-300 hover:bg-primary-700 hover:text-white flex-shrink-0"
+              data-filter="corporate">
               Corporate Events
             </button>
 
             <!-- Concerts & Performances -->
             <button
-              class="portfolio-filter bg-blue-50 text-primary px-8 py-3 rounded-full font-medium text-sm whitespace-nowrap transition-all duration-300 hover:bg-blue-100 flex-shrink-0"
-              data-filter="concerts"
-            >
+              class="portfolio-filter bg-primary-50 text-[#5C9CD5] px-8 py-3 rounded-full border border-primary-100 font-medium text-sm whitespace-nowrap transition-all duration-300 hover:bg-primary-700 hover:text-white flex-shrink-0"
+              data-filter="concerts">
               Concerts & Performances
             </button>
 
             <!-- Brand Activation -->
             <button
-              class="portfolio-filter bg-blue-50 text-primary px-8 py-3 rounded-full font-medium text-sm whitespace-nowrap transition-all duration-300 hover:bg-blue-100 flex-shrink-0"
-              data-filter="brand"
-            >
+              class="portfolio-filter bg-primary-50 text-[#5C9CD5] px-8 py-3 rounded-full border border-primary-100 font-medium text-sm whitespace-nowrap transition-all duration-300 hover:bg-primary-700 hover:text-white flex-shrink-0"
+              data-filter="brand">
               Brand Activation
             </button>
 
             <!-- Hospitality & Relations -->
             <button
-              class="portfolio-filter bg-blue-50 text-primary px-8 py-3 rounded-full font-medium text-sm whitespace-nowrap transition-all duration-300 hover:bg-blue-100 flex-shrink-0"
-              data-filter="hospitality"
-            >
+              class="portfolio-filter bg-primary-50 text-[#5C9CD5] px-8 py-3 rounded-full border border-primary-100 font-medium text-sm whitespace-nowrap transition-all duration-300 hover:bg-primary-700 hover:text-white flex-shrink-0"
+              data-filter="hospitality">
               Hospitality & Relations
             </button>
 
             <!-- Sports Events -->
             <button
-              class="portfolio-filter bg-blue-50 text-primary px-8 py-3 rounded-full font-medium text-sm whitespace-nowrap transition-all duration-300 hover:bg-blue-100 flex-shrink-0"
-              data-filter="sports"
-            >
+              class="portfolio-filter bg-primary-50 text-[#5C9CD5] px-8 py-3 rounded-full border border-primary-100 font-medium text-sm whitespace-nowrap transition-all duration-300 hover:bg-primary-700 hover:text-white flex-shrink-0"
+              data-filter="sports">
               Sports Events
             </button>
           </div>
 
           <!-- Portfolio Grid -->
-          <div
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12"
-          >
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mb-12">
             <!-- Portfolio Item 1 -->
-            <div
-              class="portfolio-item group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
-              data-category="corporate"
-            >
+            <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <!-- Image -->
-              <div
-                class="aspect-[4/3] overflow-hidden bg-gradient-to-br from-yellow-400 via-orange-500 to-red-500 relative"
-              >
-                <img
-                  src="./src/img/card-portfolio-img (1).png"
-                  alt="Kajian Akbar Milad Emas 50th Pamella Supermarket"
-                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div
-                  class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-10 transition-opacity duration-300"
-                ></div>
+              <div class="overflow-hidden bg-gradient-to-br from-yellow-400 via-orange-500 to-red-500 relative">
+                <img src="./src/img/event-img (1).png" alt="Kajian Akbar Milad Emas 50th Pamella Supermarket" class="w-full h-[230px] object-cover group-hover:scale-105 transition-transform duration-500" />
+                <div class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-10 transition-opacity duration-300"></div>
               </div>
 
               <!-- Content -->
               <div class="p-6 space-y-4">
                 <!-- Title -->
-                <h3
-                  class="text-xl font-medium text-gray-800 group-hover:text-primary transition-colors duration-300"
-                >
-                  Kajian Akbar Milad Emas 50th Pamella Supermarket
-                </h3>
+                <h3 class="text-2xl font-medium text-neutral-900 group-hover:text-primary transition-colors duration-300">Kajian Akbar Milad Emas 50th Pamella Supermarket</h3>
 
                 <!-- Event Details -->
                 <div class="space-y-3">
                   <!-- Client & Year -->
-                  <div class="flex items-center text-sm text-gray-600">
-                    <svg
-                      class="mr-2 text-primary"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
+                  <div class="flex items-center text-base font-normal text-neutral-900">
+                    <svg class="mr-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path
                         d="M8 2V6M16 2V6M3 10H21M8 14H8.01M12 14H12.01M16 14H16.01M8 18H8.01M12 18H12.01M16 18H16.01M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z"
                         stroke="#0059A7"
-                        stroke-width="1.5"
+                        stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                     <span>Pamella Supermarket • 2024</span>
                   </div>
 
                   <!-- Participants -->
-                  <div class="flex items-center text-sm text-gray-600">
-                    <svg
-                      class="mr-2 text-primary"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
+                  <div class="flex items-center text-base font-normal text-neutral-900">
+                    <svg class="mr-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path
                         d="M18 21C18 18.8783 17.1571 16.8434 15.6569 15.3431C14.1566 13.8429 12.1217 13 10 13M10 13C7.87827 13 5.84344 13.8429 4.34315 15.3431C2.84285 16.8434 2 18.8783 2 21M10 13C12.7614 13 15 10.7614 15 8C15 5.23858 12.7614 3 10 3C7.23858 3 5 5.23858 5 8C5 10.7614 7.23858 13 10 13ZM22 20C22 16.63 20 13.5 18 12C18.6574 11.5068 19.1831 10.8591 19.5306 10.1143C19.878 9.36945 20.0365 8.55047 19.992 7.7298C19.9475 6.90913 19.7014 6.11209 19.2755 5.4092C18.8495 4.70631 18.2569 4.11926 17.55 3.7"
                         stroke="#0059A7"
-                        stroke-width="1.5"
+                        stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                     <span>2000+ Partisipasi</span>
                   </div>
 
                   <!-- Location -->
-                  <div class="flex items-center text-sm text-gray-600">
-                    <svg
-                      class="mr-2 text-primary"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
+                  <div class="flex items-center text-base font-normal text-neutral-900">
+                    <svg class="mr-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path
                         d="M20 10C20 14.993 14.461 20.193 12.601 21.799C12.4277 21.9293 12.2168 21.9998 12 21.9998C11.7832 21.9998 11.5723 21.9293 11.399 21.799C9.539 20.193 4 14.993 4 10C4 7.87827 4.84285 5.84344 6.34315 4.34315C7.84344 2.84285 9.87827 2 12 2C14.1217 2 16.1566 2.84285 17.6569 4.34315C19.1571 5.84344 20 7.87827 20 10Z"
                         stroke="#0059A7"
-                        stroke-width="1.5"
+                        stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
-                        stroke="#0059A7"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
+                      <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="#0059A7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                     <span>Yogyakarta</span>
                   </div>
                 </div>
 
                 <!-- Description -->
-                <p class="text-gray-600 text-sm leading-relaxed line-clamp-3">
-                  Sebuah perayaan 50 tahun Pamella Supermarket melalui kajian
-                  akbar yang menghadirkan ribuan jamaah. Acara ini tidak hanya
-                  menjadi momen syukur, tetapi juga ajang kebersamaan antara
-                  brand dan masyarakat.
+                <p class="text-neutral-700 text-base font-normal leading-relaxed">
+                  Sebuah perayaan 50 tahun Pamella Supermarket melalui kajian akbar yang menghadirkan ribuan jamaah. Acara ini tidak hanya menjadi momen syukur, tetapi juga ajang kebersamaan antara brand dan masyarakat.
                 </p>
               </div>
             </div>
 
             <!-- Portfolio Item 2 -->
-            <div
-              class="portfolio-item group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
-              data-category="brand"
-            >
+            <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <!-- Image -->
-              <div
-                class="aspect-[4/3] overflow-hidden bg-gradient-to-br from-red-500 via-pink-500 to-purple-600 relative"
-              >
-                <img
-                  src="./src/img/card-portfolio-img (2).png"
-                  alt="Kukubima Brand Activation"
-                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div
-                  class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-10 transition-opacity duration-300"
-                ></div>
+              <div class="overflow-hidden bg-gradient-to-br from-red-500 via-pink-500 to-purple-600 relative">
+                <img src="./src/img/event-img (2).png" alt="Kukubima Brand Activation" class="w-full h-[230px] object-cover group-hover:scale-105 transition-transform duration-500" />
+                <div class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-10 transition-opacity duration-300"></div>
               </div>
 
               <!-- Content -->
               <div class="p-6 space-y-4">
                 <!-- Title -->
-                <h3
-                  class="text-xl font-medium text-gray-800 group-hover:text-primary transition-colors duration-300"
-                >
-                  Kukubima Brand Activation
-                </h3>
+                <h3 class="text-2xl font-medium text-neutral-900 group-hover:text-primary transition-colors duration-300">Kukubima Brand Activation</h3>
 
                 <!-- Event Details -->
                 <div class="space-y-3">
                   <!-- Client & Year -->
-                  <div class="flex items-center text-sm text-gray-600">
-                    <svg
-                      class="mr-2 text-primary"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
+                  <div class="flex items-center text-base font-normal text-neutral-900">
+                    <svg class="mr-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path
                         d="M8 2V6M16 2V6M3 10H21M8 14H8.01M12 14H12.01M16 14H16.01M8 18H8.01M12 18H12.01M16 18H16.01M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z"
                         stroke="#0059A7"
-                        stroke-width="1.5"
+                        stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                     <span>PT. Sido Muncul • 2024</span>
                   </div>
 
                   <!-- Participants -->
-                  <div class="flex items-center text-sm text-gray-600">
-                    <svg
-                      class="mr-2 text-primary"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
+                  <div class="flex items-center text-base font-normal text-neutral-900">
+                    <svg class="mr-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path
                         d="M18 21C18 18.8783 17.1571 16.8434 15.6569 15.3431C14.1566 13.8429 12.1217 13 10 13M10 13C7.87827 13 5.84344 13.8429 4.34315 15.3431C2.84285 16.8434 2 18.8783 2 21M10 13C12.7614 13 15 10.7614 15 8C15 5.23858 12.7614 3 10 3C7.23858 3 5 5.23858 5 8C5 10.7614 7.23858 13 10 13ZM22 20C22 16.63 20 13.5 18 12C18.6574 11.5068 19.1831 10.8591 19.5306 10.1143C19.878 9.36945 20.0365 8.55047 19.992 7.7298C19.9475 6.90913 19.7014 6.11209 19.2755 5.4092C18.8495 4.70631 18.2569 4.11926 17.55 3.7"
                         stroke="#0059A7"
-                        stroke-width="1.5"
+                        stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                     <span>5000+ Partisipasi</span>
                   </div>
 
                   <!-- Location -->
-                  <div class="flex items-center text-sm text-gray-600">
-                    <svg
-                      class="mr-2 text-primary"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
+                  <div class="flex items-center text-base font-normal text-neutral-900">
+                    <svg class="mr-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path
                         d="M20 10C20 14.993 14.461 20.193 12.601 21.799C12.4277 21.9293 12.2168 21.9998 12 21.9998C11.7832 21.9998 11.5723 21.9293 11.399 21.799C9.539 20.193 4 14.993 4 10C4 7.87827 4.84285 5.84344 6.34315 4.34315C7.84344 2.84285 9.87827 2 12 2C14.1217 2 16.1566 2.84285 17.6569 4.34315C19.1571 5.84344 20 7.87827 20 10Z"
                         stroke="#0059A7"
-                        stroke-width="1.5"
+                        stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
-                        stroke="#0059A7"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
+                      <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="#0059A7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                     <span>Multiple Cities</span>
                   </div>
                 </div>
 
                 <!-- Description -->
-                <p class="text-gray-600 text-sm leading-relaxed line-clamp-3">
-                  Aktivasi brand yang energik dan interaktif, menghadirkan
-                  pengalaman langsung bagi konsumen Kukubima untuk memperkuat
-                  kedekatan dengan brand.
-                </p>
+                <p class="text-neutral-700 text-base font-normal leading-relaxed">Aktivasi brand yang energik dan interaktif, menghadirkan pengalaman langsung bagi konsumen Kukubima untuk memperkuat kedekatan dengan brand.</p>
               </div>
             </div>
 
             <!-- Portfolio Item 3 -->
-            <div
-              class="portfolio-item group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
-              data-category="corporate"
-            >
+            <div class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <!-- Image -->
-              <div
-                class="aspect-[4/3] overflow-hidden bg-gradient-to-br from-blue-400 via-blue-500 to-indigo-600 relative"
-              >
-                <img
-                  src="./src/img/card-portfolio-img (3).png"
-                  alt="Topping Off Ceremony Apartemen Mataram City Yogyakarta"
-                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div
-                  class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-10 transition-opacity duration-300"
-                ></div>
+              <div class="overflow-hidden bg-gradient-to-br from-blue-400 via-blue-500 to-indigo-600 relative">
+                <img src="./src/img/event-img (3).png" alt="Topping Off Ceremony Apartemen Mataram City Yogyakarta" class="w-full h-[230px] object-cover group-hover:scale-105 transition-transform duration-500" />
+                <div class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-10 transition-opacity duration-300"></div>
               </div>
 
               <!-- Content -->
               <div class="p-6 space-y-4">
                 <!-- Title -->
-                <h3
-                  class="text-xl font-medium text-gray-800 group-hover:text-primary transition-colors duration-300"
-                >
-                  Topping Off Ceremony Apartemen Mataram City Yogyakarta
-                </h3>
+                <h3 class="text-2xl font-medium text-neutral-900 group-hover:text-primary transition-colors duration-300">Topping Off Ceremony Apartemen Mataram City Yogyakarta</h3>
 
                 <!-- Event Details -->
                 <div class="space-y-3">
                   <!-- Client & Year -->
-                  <div class="flex items-center text-sm text-gray-600">
-                    <svg
-                      class="mr-2 text-primary"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
+                  <div class="flex items-center text-base font-normal text-neutral-900">
+                    <svg class="mr-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path
                         d="M8 2V6M16 2V6M3 10H21M8 14H8.01M12 14H12.01M16 14H16.01M8 18H8.01M12 18H12.01M16 18H16.01M5 4H19C20.1046 4 21 4.89543 21 6V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V6C3 4.89543 3.89543 4 5 4Z"
                         stroke="#0059A7"
-                        stroke-width="1.5"
+                        stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                     <span>Mataram City Development • 2024</span>
                   </div>
 
                   <!-- Participants -->
-                  <div class="flex items-center text-sm text-gray-600">
-                    <svg
-                      class="mr-2 text-primary"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
+                  <div class="flex items-center text-base font-normal text-neutral-900">
+                    <svg class="mr-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path
                         d="M18 21C18 18.8783 17.1571 16.8434 15.6569 15.3431C14.1566 13.8429 12.1217 13 10 13M10 13C7.87827 13 5.84344 13.8429 4.34315 15.3431C2.84285 16.8434 2 18.8783 2 21M10 13C12.7614 13 15 10.7614 15 8C15 5.23858 12.7614 3 10 3C7.23858 3 5 5.23858 5 8C5 10.7614 7.23858 13 10 13ZM22 20C22 16.63 20 13.5 18 12C18.6574 11.5068 19.1831 10.8591 19.5306 10.1143C19.878 9.36945 20.0365 8.55047 19.992 7.7298C19.9475 6.90913 19.7014 6.11209 19.2755 5.4092C18.8495 4.70631 18.2569 4.11926 17.55 3.7"
                         stroke="#0059A7"
-                        stroke-width="1.5"
+                        stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                     <span>500+ Partisipasi</span>
                   </div>
 
                   <!-- Location -->
-                  <div class="flex items-center text-sm text-gray-600">
-                    <svg
-                      class="mr-2 text-primary"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
+                  <div class="flex items-center text-base font-normal text-neutral-900">
+                    <svg class="mr-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path
                         d="M20 10C20 14.993 14.461 20.193 12.601 21.799C12.4277 21.9293 12.2168 21.9998 12 21.9998C11.7832 21.9998 11.5723 21.9293 11.399 21.799C9.539 20.193 4 14.993 4 10C4 7.87827 4.84285 5.84344 6.34315 4.34315C7.84344 2.84285 9.87827 2 12 2C14.1217 2 16.1566 2.84285 17.6569 4.34315C19.1571 5.84344 20 7.87827 20 10Z"
                         stroke="#0059A7"
-                        stroke-width="1.5"
+                        stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
-                        stroke="#0059A7"
-                        stroke-width="1.5"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
+                      <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="#0059A7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                     <span>Yogyakarta</span>
                   </div>
                 </div>
 
                 <!-- Description -->
-                <p class="text-gray-600 text-sm leading-relaxed line-clamp-3">
-                  Momen penting dalam pembangunan apartemen Mataram City
-                  ditandai dengan seremoni topping off yang dihadiri
-                  stakeholder, investor, dan tamu undangan.
-                </p>
+                <p class="text-neutral-700 text-base font-normal leading-relaxed">Momen penting dalam pembangunan apartemen Mataram City ditandai dengan seremoni topping off yang dihadiri stakeholder, investor, dan tamu undangan.</p>
               </div>
             </div>
           </div>
@@ -768,8 +507,7 @@
           <!-- Call to Action Button -->
           <div class="text-center">
             <button
-              class="bg-primary text-white px-6 py-3 rounded-full text-sm font-normal hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-            >
+              class="bg-none border border-primary-100 text-primary px-6 py-2.5 rounded-full text-base font-medium hover:bg-primary-700 hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
               Lihat Semua
             </button>
           </div>
@@ -789,50 +527,67 @@
       <script>
         document.addEventListener("DOMContentLoaded", function () {
           const filterButtons = document.querySelectorAll(".portfolio-filter");
+          const mobileFilter = document.getElementById("mobile-filter");
           const portfolioItems = document.querySelectorAll(".portfolio-item");
 
-          // Filter functionality
+          // Common filter function
+          function filterPortfolio(filter) {
+            // Update active button (desktop only)
+            filterButtons.forEach((btn) => {
+              btn.classList.remove("active", "bg-primary-500", "text-white", "border-primary-500");
+              btn.classList.add("bg-primary-50", "text-[#5C9CD5]", "border-primary-100");
+            });
+
+            // Find and activate the corresponding desktop button
+            const activeButton = document.querySelector(`[data-filter="${filter}"]`);
+            if (activeButton) {
+              activeButton.classList.add("active", "bg-primary-500", "text-white", "border-primary-500");
+              activeButton.classList.remove("bg-primary-50", "text-[#5C9CD5]", "border-primary-100");
+            }
+
+            // Filter portfolio items
+            portfolioItems.forEach((item, index) => {
+              const category = item.getAttribute("data-category");
+
+              if (filter === "all" || category === filter) {
+                // Show item with stagger animation
+                setTimeout(() => {
+                  item.style.display = "block";
+                  item.style.opacity = "0";
+                  item.style.transform = "translateY(20px)";
+
+                  setTimeout(() => {
+                    item.style.opacity = "1";
+                    item.style.transform = "translateY(0)";
+                    item.style.transition = "all 0.5s ease";
+                  }, 10);
+                }, index * 100);
+              } else {
+                // Hide item
+                item.style.opacity = "0";
+                item.style.transform = "translateY(-20px)";
+                setTimeout(() => {
+                  item.style.display = "none";
+                }, 300);
+              }
+            });
+          }
+
+          // Desktop filter functionality
           filterButtons.forEach((button) => {
             button.addEventListener("click", function () {
               const filter = this.getAttribute("data-filter");
-
-              // Update active button
-              filterButtons.forEach((btn) => {
-                btn.classList.remove("active", "bg-primary", "text-white");
-                btn.classList.add("bg-blue-50", "text-primary");
-              });
-
-              this.classList.add("active", "bg-primary", "text-white");
-              this.classList.remove("bg-blue-50", "text-primary");
-
-              // Filter portfolio items
-              portfolioItems.forEach((item, index) => {
-                const category = item.getAttribute("data-category");
-
-                if (filter === "all" || category === filter) {
-                  // Show item with stagger animation
-                  setTimeout(() => {
-                    item.style.display = "block";
-                    item.style.opacity = "0";
-                    item.style.transform = "translateY(20px)";
-
-                    setTimeout(() => {
-                      item.style.opacity = "1";
-                      item.style.transform = "translateY(0)";
-                      item.style.transition = "all 0.5s ease";
-                    }, 10);
-                  }, index * 100);
-                } else {
-                  // Hide item
-                  item.style.opacity = "0";
-                  item.style.transform = "translateY(-20px)";
-                  setTimeout(() => {
-                    item.style.display = "none";
-                  }, 300);
-                }
-              });
+              filterPortfolio(filter);
             });
           });
+
+          // Mobile filter functionality
+          if (mobileFilter) {
+            mobileFilter.addEventListener("change", function () {
+              const filter = this.value;
+              filterPortfolio(filter);
+            });
+          }
 
           // Initial load animation
           portfolioItems.forEach((item, index) => {
@@ -849,331 +604,159 @@
       </script>
 
       <!-- Testimonial Section -->
-      <section id="testimonial" class="py-20 bg-[#F6FBFF]">
+      <section id="testimonial" class="py-16 lg:py-20 bg-primary-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <!-- Header -->
-          <div class="text-center mb-16">
+          <div class="text-center mb-12 lg:mb-16">
             <!-- Badge -->
-            <div class="inline-flex items-center justify-center mb-6">
-              <div
-                class="flex items-center bg-[#F0F8FF] border border-[#B8D4ED] rounded-full px-4 py-2"
-              >
-                <div
-                  class="w-3 h-3 bg-primary border-[2.5px] border-[#B8D4ED] rounded-full mr-3"
-                ></div>
-                <span class="text-sm font-medium text-primary"
-                  >Testimonial</span
-                >
+            <div class="inline-flex items-center justify-center mb-4 lg:mb-6">
+              <div class="flex items-center bg-primary-50 border border-primary-100 rounded-full px-4 py-2">
+                <div class="w-3 h-3 bg-primary border-[2.5px] border-primary-100 rounded-full mr-3"></div>
+                <span class="text-sm font-medium text-primary">Testimonial</span>
               </div>
             </div>
 
             <!-- Title -->
-            <h2
-              class="text-3xl lg:text-4xl font-bold leading-tight mb-6 text-gray-800"
-            >
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold leading-tight mb-4 lg:mb-6 text-neutral-900">
               <span class="text-primary">Everything You Need</span>
               for Your Event
             </h2>
 
             <!-- Description -->
-            <p
-              class="text-gray-600 text-base max-w-2xl mx-auto leading-relaxed"
-            >
-              From initial concept to final execution, we provide comprehensive
-              event solutions that ensure your vision comes to life flawlessly.
-            </p>
+            <p class="text-neutral-700 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">From initial concept to final execution, we provide comprehensive event solutions that ensure your vision comes to life flawlessly.</p>
           </div>
 
           <!-- Testimonials Grid -->
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             <!-- Testimonial Card 1 -->
-            <div
-              class="bg-white rounded-2xl p-6 border border-[#B8D4ED] transition-all duration-300 group hover:-translate-y-2"
-            >
+            <div class="bg-white rounded-2xl p-4 lg:p-6 border border-primary-100 transition-all duration-300 group hover:-translate-y-2">
               <!-- Profile -->
-              <div class="flex items-center mb-4">
-                <div
-                  class="w-12 h-12 rounded-full overflow-hidden mr-3 flex-shrink-0"
-                >
+              <div class="flex items-center mb-3 lg:mb-4">
+                <div class="w-10 h-10 lg:w-12 lg:h-12 rounded-full overflow-hidden mr-3 flex-shrink-0">
                   <img
                     src="https://images.unsplash.com/photo-1724064710352-3cbcee4bc3a8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Yuli"
-                    class="w-full h-full object-cover"
-                  />
+                    class="w-full h-full object-cover" />
                 </div>
                 <div>
-                  <h4 class="font-semibold text-gray-800 text-base">Yuli</h4>
-                  <p class="text-gray-600 text-sm">Marketing Director</p>
+                  <h4 class="font-medium text-neutral-900 text-sm lg:text-base">Yuli</h4>
+                  <p class="text-neutral-700 text-xs lg:text-sm">Marketing Director</p>
                 </div>
               </div>
 
               <!-- Testimonial Content -->
-              <div class="space-y-4">
-                <p class="text-[#404040] leading-relaxed text-sm">
-                  "Julian Production exceeded our expectations. Their attention
-                  to detail and professional execution made our product launch
-                  event absolutely memorable. The team was responsive and
-                  creative throughout the entire process."
+              <div class="space-y-3 lg:space-y-4">
+                <p class="text-neutral-700 leading-relaxed text-sm lg:text-base">
+                  "Julian Production exceeded our expectations. Their attention to detail and professional execution made our product launch event absolutely memorable. The team was responsive and creative throughout the entire process."
                 </p>
 
                 <!-- Star Rating -->
                 <div class="flex items-center space-x-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
                 </div>
               </div>
             </div>
 
             <!-- Testimonial Card 2 -->
-            <div
-              class="bg-white rounded-2xl p-6 border border-[#B8D4ED] transition-all duration-300 group hover:-translate-y-2"
-            >
+            <div class="bg-white rounded-2xl p-4 lg:p-6 border border-primary-100 transition-all duration-300 group hover:-translate-y-2">
               <!-- Profile -->
-              <div class="flex items-center mb-4">
-                <div
-                  class="w-12 h-12 rounded-full overflow-hidden mr-3 flex-shrink-0"
-                >
-                  <img
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face"
-                    alt="Sarah"
-                    class="w-full h-full object-cover"
-                  />
+              <div class="flex items-center mb-3 lg:mb-4">
+                <div class="w-10 h-10 lg:w-12 lg:h-12 rounded-full overflow-hidden mr-3 flex-shrink-0">
+                  <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Sarah" class="w-full h-full object-cover" />
                 </div>
                 <div>
-                  <h4 class="font-semibold text-gray-800 text-base">Sarah</h4>
-                  <p class="text-gray-600 text-sm">Brand Manager</p>
+                  <h4 class="font-medium text-neutral-900 text-sm lg:text-base">Sarah</h4>
+                  <p class="text-neutral-700 text-xs lg:text-sm">Brand Manager</p>
                 </div>
               </div>
 
               <!-- Testimonial Content -->
-              <div class="space-y-4">
-                <p class="text-[#404040] leading-relaxed text-sm">
-                  "Working with Julian Production was a game-changer for our
-                  brand activation campaign. They understood our vision
-                  perfectly and delivered an engaging experience that resonated
-                  with our target audience."
+              <div class="space-y-3 lg:space-y-4">
+                <p class="text-neutral-700 leading-relaxed text-sm lg:text-base">
+                  "Working with Julian Production was a game-changer for our brand activation campaign. They understood our vision perfectly and delivered an engaging experience that resonated with our target audience."
                 </p>
 
                 <!-- Star Rating -->
                 <div class="flex items-center space-x-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
                 </div>
               </div>
             </div>
 
             <!-- Testimonial Card 3 -->
-            <div
-              class="bg-white rounded-2xl p-6 border border-[#B8D4ED] transition-all duration-300 group hover:-translate-y-2"
-            >
+            <div class="bg-white rounded-2xl p-4 lg:p-6 border border-primary-100 transition-all duration-300 group hover:-translate-y-2">
               <!-- Profile -->
-              <div class="flex items-center mb-4">
-                <div
-                  class="w-12 h-12 rounded-full overflow-hidden mr-3 flex-shrink-0"
-                >
-                  <img
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
-                    alt="Joko"
-                    class="w-full h-full object-cover"
-                  />
+              <div class="flex items-center mb-3 lg:mb-4">
+                <div class="w-10 h-10 lg:w-12 lg:h-12 rounded-full overflow-hidden mr-3 flex-shrink-0">
+                  <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Joko" class="w-full h-full object-cover" />
                 </div>
                 <div>
-                  <h4 class="font-semibold text-gray-800 text-base">Joko</h4>
-                  <p class="text-gray-600 text-sm">Event Coordinator</p>
+                  <h4 class="font-medium text-neutral-900 text-sm lg:text-base">Joko</h4>
+                  <p class="text-neutral-700 text-xs lg:text-sm">Event Coordinator</p>
                 </div>
               </div>
 
               <!-- Testimonial Content -->
-              <div class="space-y-4">
-                <p class="text-[#404040] leading-relaxed text-sm">
-                  "From planning to execution, Julian Production demonstrated
-                  exceptional professionalism. Our corporate gathering was
-                  seamless, and our guests were thoroughly impressed with the
-                  quality of service."
+              <div class="space-y-3 lg:space-y-4">
+                <p class="text-neutral-700 leading-relaxed text-sm lg:text-base">
+                  "From planning to execution, Julian Production demonstrated exceptional professionalism. Our corporate gathering was seamless, and our guests were thoroughly impressed with the quality of service."
                 </p>
 
                 <!-- Star Rating -->
                 <div class="flex items-center space-x-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="text-center mt-10 flex justify-center items-center">
+          <button
+            class="bg-none border border-primary-100 text-primary px-6 py-2.5 rounded-full text-base font-medium hover:bg-primary-700 hover:text-white transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+            Lihat Semua
+          </button>
         </div>
       </section>
 
@@ -1195,242 +778,77 @@
       </script>
 
       <!-- FAQ Section -->
-      <section id="faq" class="py-20 bg-white">
+      <section id="faq" class="py-16 lg:py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-start">
             <!-- Left Content -->
-            <div class="space-y-8">
+            <div class="space-y-6 lg:space-y-8 text-center lg:text-left">
               <!-- Badge -->
-              <div class="inline-flex items-center justify-center">
-                <div
-                  class="flex items-center bg-[#F0F8FF] border border-[#B8D4ED] rounded-full px-4 py-2"
-                >
-                  <div
-                    class="w-3 h-3 bg-primary border-[2.5px] border-[#B8D4ED] rounded-full mr-3"
-                  ></div>
+              <div class="inline-flex items-center justify-center lg:justify-start">
+                <div class="flex items-center bg-primary-50 border border-primary-100 rounded-full px-4 py-2">
+                  <div class="w-3 h-3 bg-primary border-[2.5px] border-primary-100 rounded-full mr-3"></div>
                   <span class="text-sm font-medium text-primary">FAQs</span>
                 </div>
               </div>
 
               <!-- Title -->
-              <h2
-                class="text-3xl lg:text-4xl font-semibold leading-tight text-[#171717]"
-              >
-                <span class="text-primary">Want your questions</span>
+              <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold leading-tight text-neutral-900">
+                <span class="text-primary-500">Want your questions</span>
                 answered quickly?
               </h2>
 
               <!-- Description -->
-              <p
-                class="text-neutral-700 text-base font-medium max-w-2xl leading-relaxed"
-              >
-                Take a look at our FAQ's below, or book a call above.
-              </p>
+              <p class="text-neutral-700 text-sm sm:text-base font-medium max-w-2xl leading-relaxed">Take a look at our FAQ's below, or book a call above.</p>
             </div>
 
             <!-- Right Content - FAQ Accordion -->
-            <div class="space-y-4">
+            <div class="space-y-3 lg:space-y-4">
               <!-- FAQ Item 1 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq1"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Layanan apa saja yang Julian Production tawarkan?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
+              <div class="bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-4 lg:px-6 flex items-center justify-between focus:outline-none" data-target="faq1">
+                  <h3 class="text-sm lg:text-lg font-normal text-neutral-700 pr-4">Apa saja layanan yang disediakan oleh Julian Production?</h3>
+                  <svg class="faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <div
-                  id="faq1"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
-                  <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Kami menangani event B2B dan B2C: Wedding, Corporate
-                      Events (gathering, seminar, product launch), Exhibition &
-                      Concert, serta Private Events (ulang tahun, engagement).
-                      Kami juga menyediakan jasa promosi, concept developing,
-                      dan tour & travel support.
+                <div id="faq1" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
+                  <div class="px-4 lg:px-6 pb-4 lg:pb-6">
+                    <p class="text-sm lg:text-base text-neutral-700 leading-relaxed">
+                      Julian Production siap membantu merencanakan dan melaksanakan berbagai jenis acara, mulai dari event korporat, company gathering, konser, brand activation, seminar, workshop, hingga acara khusus lainnya sesuai
+                      kebutuhan Anda.
                     </p>
                   </div>
                 </div>
               </div>
 
               <!-- FAQ Item 2 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq2"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Bagaimana cara minta penawaran (quote)?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
+              <div class="bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-4 lg:px-6 flex items-center justify-between focus:outline-none" data-target="faq2">
+                  <h3 class="text-sm lg:text-lg font-normal text-neutral-700 pr-4">Bagaimana cara menentukan anggaran untuk sebuah event?</h3>
+                  <svg class="faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <div
-                  id="faq2"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
-                  <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Anda dapat menghubungi kami melalui WhatsApp, email, atau
-                      mengisi form konsultasi di website kami. Tim kami akan
-                      merespon dalam 24 jam dan mengatur meeting untuk membahas
-                      kebutuhan acara Anda secara detail sebelum memberikan
-                      penawaran yang sesuai.
+                <div id="faq2" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
+                  <div class="px-4 lg:px-6 pb-4 lg:pb-6">
+                    <p class="text-sm lg:text-base text-neutral-700 leading-relaxed">
+                      Anggaran disesuaikan dengan konsep acara, jumlah tamu, lokasi, durasi, serta kebutuhan teknis dan kreatif lainnya. Kami akan memberikan panduan serta rekomendasi agar semua tetap sesuai dengan budget Anda.
                     </p>
                   </div>
                 </div>
               </div>
 
               <!-- FAQ Item 3 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq3"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Berapa lama lead time yang dibutuhkan?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
+              <div class="bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-4 lg:px-6 flex items-center justify-between focus:outline-none" data-target="faq3">
+                  <h3 class="text-sm lg:text-lg font-normal text-neutral-700 pr-4">Apakah Julian Production melayani event di luar kota?</h3>
+                  <svg class="faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <div
-                  id="faq3"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
-                  <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Lead time tergantung skala acara. Untuk event kecil
-                      minimal 2 minggu, event menengah 1-2 bulan, dan event
-                      besar 3-6 bulan. Namun kami juga bisa menangani event
-                      dadakan dengan koordinasi intensif, tergantung
-                      ketersediaan tim dan vendor.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- FAQ Item 4 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq4"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Apa saja yang termasuk dalam paket layanan?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
-                  </svg>
-                </button>
-                <div
-                  id="faq4"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
-                  <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Paket layanan mencakup konsultasi awal, perencanaan event,
-                      koordinasi vendor, manajemen timeline, setup venue,
-                      koordinator pada hari H, dokumentasi, dan evaluasi
-                      post-event. Paket dapat disesuaikan dengan kebutuhan dan
-                      budget klien.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- FAQ Item 5 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq5"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Apakah melayani event di luar Yogyakarta?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
-                  </svg>
-                </button>
-                <div
-                  id="faq5"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
-                  <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Ya, kami melayani event di seluruh Indonesia. Untuk event
-                      di luar Yogyakarta, akan ada tambahan biaya transportasi
-                      dan akomodasi tim. Kami memiliki jaringan vendor partner
-                      di berbagai kota untuk memastikan kualitas pelayanan tetap
-                      optimal.
-                    </p>
+                <div id="faq3" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
+                  <div class="px-4 lg:px-6 pb-4 lg:pb-6">
+                    <p class="text-sm lg:text-base text-neutral-700 leading-relaxed">Kami berpengalaman menangani acara di berbagai kota di Indonesia dan siap menyesuaikan kebutuhan Anda di lokasi mana pun.</p>
                   </div>
                 </div>
               </div>
@@ -1451,14 +869,12 @@
               const parentDiv = this.parentElement;
 
               // Check if this FAQ is currently open
-              const isOpen =
-                content.style.maxHeight && content.style.maxHeight !== "0px";
+              const isOpen = content.style.maxHeight && content.style.maxHeight !== "0px";
 
               // Close all other FAQs
               faqTriggers.forEach((otherTrigger) => {
                 if (otherTrigger !== this) {
-                  const otherTargetId =
-                    otherTrigger.getAttribute("data-target");
+                  const otherTargetId = otherTrigger.getAttribute("data-target");
                   const otherContent = document.getElementById(otherTargetId);
                   const otherIcon = otherTrigger.querySelector(".faq-icon");
                   const otherParent = otherTrigger.parentElement;
@@ -1472,16 +888,12 @@
 
                   // Reset styling to closed state
                   if (otherParent.classList.contains("bg-primary")) {
-                    otherParent.className =
-                      "bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
+                    otherParent.className = "bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
                     const otherTitle = otherTrigger.querySelector("h3");
-                    otherTitle.className =
-                      "text-lg font-normal text-[#404040] pr-4";
-                    otherIcon.className =
-                      "faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0";
-                    const otherContent =
-                      otherTrigger.nextElementSibling.querySelector("p");
-                    otherContent.className = "text-[#404040] leading-relaxed";
+                    otherTitle.className = "text-lg font-normal text-neutral-700 pr-4";
+                    otherIcon.className = "faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0";
+                    const otherContent = otherTrigger.nextElementSibling.querySelector("p");
+                    otherContent.className = "text-neutral-700 leading-relaxed";
                   }
                 }
               });
@@ -1493,12 +905,10 @@
                 icon.style.color = "#404040";
 
                 // Change to closed styling
-                parentDiv.className =
-                  "bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
+                parentDiv.className = "bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
                 const title = this.querySelector("h3");
                 title.className = "text-lg font-normal text-[#404040] pr-4";
-                icon.className =
-                  "faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0";
+                icon.className = "faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0";
                 const contentText = this.nextElementSibling.querySelector("p");
                 contentText.className = "text-[#404040] leading-relaxed";
               } else {
@@ -1508,12 +918,10 @@
                 icon.style.color = "white";
 
                 // Change to open styling
-                parentDiv.className =
-                  "bg-primary rounded-2xl overflow-hidden shadow-lg transition-all duration-300";
+                parentDiv.className = "bg-primary rounded-2xl overflow-hidden shadow-lg transition-all duration-300";
                 const title = this.querySelector("h3");
                 title.className = "text-lg font-semibold text-white pr-4";
-                icon.className =
-                  "faq-icon w-6 h-6 text-white transform rotate-180 transition-transform duration-300 flex-shrink-0";
+                icon.className = "faq-icon w-6 h-6 text-white transform rotate-180 transition-transform duration-300 flex-shrink-0";
                 const contentText = this.nextElementSibling.querySelector("p");
                 contentText.className = "text-white leading-relaxed";
               }
@@ -1523,49 +931,32 @@
       </script>
 
       <!-- Banner Section -->
-      <section class="py-16 lg:py-20">
+      <section class="py-12 lg:py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="relative rounded-3xl overflow-hidden shadow-2xl">
+          <div class="relative rounded-2xl lg:rounded-3xl overflow-hidden shadow-2xl">
             <!-- Background Image -->
             <div class="absolute inset-0">
-              <img
-                src="./src/img/banner.jpg"
-                alt="Event Banner"
-                class="w-full h-full object-cover"
-              />
+              <img src="./src/img/banner.jpg" alt="Event Banner" class="w-full h-full object-cover" />
               <!-- Dark Overlay -->
-              <div
-                class="absolute inset-0"
-                style="background-color: #0c1c2a; opacity: 0.8"
-              ></div>
+              <div class="absolute inset-0" style="background-color: #0c1c2a; opacity: 0.8"></div>
             </div>
 
             <!-- Content -->
-            <div
-              class="relative z-10 px-8 py-16 sm:px-12 sm:py-20 lg:px-16 lg:py-24"
-            >
-              <div class="max-w-4xl">
+            <div class="relative z-10 px-6 py-12 sm:px-8 sm:py-16 lg:px-16 lg:py-24">
+              <div class="max-w-4xl text-center lg:text-left">
                 <!-- Main Heading -->
-                <h2
-                  class="text-2xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6"
-                >
+                <h2 class="text-xl sm:text-3xl lg:text-6xl font-semibold text-white mb-4 lg:mb-6">
                   Ready to Create Your<br class="hidden sm:block" />
                   Success Story?
                 </h2>
 
                 <!-- Subtitle -->
-                <p
-                  class="text-base text-[#D4D4D4] leading-relaxed mb-10 max-w-2xl"
-                >
-                  Join our growing list of satisfied clients and let us bring
-                  your event vision to life.
-                </p>
+                <p class="text-sm sm:text-base text-[#D4D4D4] leading-relaxed mb-8 lg:mb-10 max-w-2xl mx-auto lg:mx-0">Kami siap mewujudkan event Anda menjadi pengalaman berkesan</p>
 
                 <!-- CTA Button -->
-                <div class="flex flex-col sm:flex-row gap-4">
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                   <button
-                    class="bg-primary text-white px-6 py-4 rounded-full font-medium text-sm hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center justify-center"
-                  >
+                    class="bg-primary text-white px-6 py-3 lg:py-4 rounded-full font-medium text-sm hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center justify-center">
                     Buat Event
                   </button>
                 </div>
@@ -1575,123 +966,101 @@
         </div>
       </section>
     </main>
-    <footer class="bg-[#0A192F] text-white">
-      <div class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-20 lg:py-24">
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 justify-between"
-        >
-          <!-- Company Information -->
-          <div class="lg:col-span-1">
-            <div class="flex flex-col space-y-4">
+    <footer class="bg-primary-900 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24">
+        <div class="flex flex-col lg:flex-row justify-between gap-16 lg:gap-20">
+          <!-- Left Side - Company Information -->
+          <div class="lg:max-w-sm">
+            <div class="flex flex-col space-y-6">
               <!-- Logo -->
               <div class="flex items-center">
-                <img
-                  src="./src/img/logo-white.png"
-                  alt="Julian Production Logo"
-                  class="h-8 w-auto"
-                />
+                <div class="flex items-center">
+                  <img src="./src/img/logo-white.png" alt="Logo" class="w-full" />
+                </div>
               </div>
 
               <!-- Description -->
-              <p class="text-white text-base leading-relaxed mb-6">
-                Professional event organizing services since 2020. We bring
-                ideas to life through creative and flawless execution.
-              </p>
+              <p class="text-neutral-300 text-base leading-relaxed">Professional event organizing services since 2020. We bring ideas to life through creative and flawless execution.</p>
 
               <!-- Social Media Icons -->
               <div class="flex space-x-4">
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                >
+                <a href="#" class="text-white hover:text-gray-300 transition-colors">
                   <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path
-                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
-                    />
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                   </svg>
                 </a>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                >
+                <a href="#" class="text-white hover:text-gray-300 transition-colors">
                   <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path
-                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-                    />
+                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                   </svg>
                 </a>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                >
+                <a href="#" class="text-white hover:text-gray-300 transition-colors">
                   <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path
-                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
-                    />
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                   </svg>
                 </a>
               </div>
             </div>
           </div>
 
-          <!-- Our Services -->
-          <div>
-            <h4 class="text-lg font-semibold text-white mb-6">Our Services</h4>
-            <ul class="space-y-3">
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >About Us</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >Blog</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
+          <!-- Right Side - Menu Sections -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12">
+            <!-- Navigation -->
+            <div>
+              <h4 class="text-2xl font-medium text-white mb-6">Navigation</h4>
+              <ul class="space-y-3">
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">About</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Service</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Contact</a>
+                </li>
+              </ul>
+            </div>
 
-          <!-- Legal -->
-          <div>
-            <h4 class="text-lg font-semibold text-white mb-6">Legal</h4>
-            <ul class="space-y-3">
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >Privacy Policy</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >Terms of Service</a
-                >
-              </li>
-            </ul>
-          </div>
+            <!-- Our Services -->
+            <div>
+              <h4 class="text-2xl font-medium text-white mb-6">Our Services</h4>
+              <ul class="space-y-3">
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Event Organizer</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Event Management</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Event Promotor</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Promotional Branding</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Conceptor</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Tour & Travel</a>
+                </li>
+              </ul>
+            </div>
 
-          <!-- Get Started -->
-          <div>
-            <h4 class="text-lg font-semibold text-white mb-6">Get Started</h4>
-            <div class="flex justify-center lg:justify-start">
-              <button
-                class="bg-primary text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-              >
-                Buat Event
-              </button>
+            <!-- Get Started -->
+            <div>
+              <h4 class="text-2xl font-medium text-white mb-6">Get Started</h4>
+              <div class="flex justify-start">
+                <button class="bg-primary text-white px-8 py-3 text-base font-medium rounded-full hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">Buat Event</button>
+              </div>
             </div>
           </div>
         </div>
@@ -1699,7 +1068,7 @@
 
       <!-- Bottom Section -->
       <div class="border-t border-gray-600">
-        <div class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div class="text-center">
             <p class="text-white text-sm">© 2025. All rights reserved.</p>
           </div>

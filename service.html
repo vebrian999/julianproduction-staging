@@ -6,15 +6,9 @@
     <link rel="stylesheet" href="./src/output.css" />
     <link rel="stylesheet" href="./src/style.css" />
     <link rel="icon" type="image/x-icon" href="./src/img/favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <!-- Keen Slider CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" />
     <title>Julian Production | We Bring Ideas to Life</title>
   </head>
   <body>
@@ -23,171 +17,62 @@
         <div class="flex justify-between items-center h-16">
           <!-- Logo -->
           <div class="flex items-center">
-            <img
-              src="./src/img/logo.png"
-              alt="Julian Production"
-              class="w-36"
-            />
+            <img src="./src/img/logo.png" alt="Julian Production" class="w-36" />
           </div>
 
           <!-- Desktop Navigation -->
           <div class="hidden lg:block">
             <div class="relative border border-[#B8D4ED] rounded-full p-1.5">
               <div class="flex">
-                <a
-                  href="index.html"
-                  class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary"
-                  data-nav="home"
-                >
-                  Home
-                </a>
-                <a
-                  href="about-us.html"
-                  class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary"
-                  data-nav="about"
-                >
-                  About
-                </a>
-                <a
-                  href="service.html"
-                  class="nav-item active px-4 py-2 text-sm font-normal text-white bg-primary rounded-full transition-all duration-300 hover:text-white"
-                  data-nav="service"
-                >
-                  Service
-                </a>
-                <a
-                  href="portfolio.html"
-                  class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary"
-                  data-nav="portfolio"
-                >
-                  Portfolio
-                </a>
-                <a
-                  href="contact.html"
-                  class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary"
-                  data-nav="contact"
-                >
-                  Contact
-                </a>
+                <a href="index.html" class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary" data-nav="home"> Home </a>
+                <a href="about-us.html" class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary" data-nav="about"> About </a>
+                <a href="service.html" class="nav-item active px-4 py-2 text-sm font-normal text-white bg-primary rounded-full transition-all duration-300 hover:text-white" data-nav="service"> Service </a>
+                <a href="portfolio.html" class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary" data-nav="portfolio"> Portfolio </a>
+                <a href="contact.html" class="nav-item px-4 py-2 text-sm font-normal text-gray-600 rounded-full transition-all duration-300 hover:text-primary" data-nav="contact"> Contact </a>
               </div>
             </div>
           </div>
 
           <!-- Desktop CTA Button -->
           <div class="hidden lg:flex items-center">
-            <a
-              href="contact.html"
-              class="bg-primary text-white px-6 py-3 text-sm font-normal rounded-full hover:bg-blue-700 transition-colors duration-200"
-            >
-              Hubungi Kami
-            </a>
+            <a href="contact.html" class="bg-primary text-white px-6 py-3 text-sm font-normal rounded-full hover:bg-blue-700 transition-colors duration-200"> Hubungi Kami </a>
           </div>
 
           <!-- Mobile Menu Button -->
           <div class="lg:hidden">
-            <button
-              id="mobile-menu-button"
-              class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200"
-            >
-              <svg
-                class="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                ></path>
+            <button id="mobile-menu-button" class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
             </button>
           </div>
         </div>
 
         <!-- Mobile Navigation Menu - Full Screen -->
-        <div
-          id="mobile-menu"
-          class="lg:hidden fixed inset-0 z-40 bg-white transform transition-all duration-300 ease-in-out opacity-0 -translate-y-full"
-        >
+        <div id="mobile-menu" class="lg:hidden fixed inset-0 z-40 bg-white transform transition-all duration-300 ease-in-out opacity-0 -translate-y-full">
           <div class="flex flex-col h-full">
             <!-- Header with Logo and Close Button -->
-            <div
-              class="flex justify-between items-center p-4 border-b border-gray-200"
-            >
-              <img
-                src="./src/img/logo.png"
-                alt="Julian Production"
-                class="w-32"
-              />
-              <button
-                id="mobile-menu-close"
-                class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200"
-              >
-                <svg
-                  class="w-8 h-8"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M6 18L18 6M6 6l12 12"
-                  ></path>
+            <div class="flex justify-between items-center p-4 border-b border-gray-200">
+              <img src="./src/img/logo.png" alt="Julian Production" class="w-32" />
+              <button id="mobile-menu-close" class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary transition-colors duration-200">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                 </svg>
               </button>
             </div>
 
             <!-- Navigation Links -->
             <div class="flex-1 flex flex-col justify-center px-8 space-y-8">
-              <a
-                href="index.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="home"
-              >
-                Home
-              </a>
-              <a
-                href="about-us.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="about"
-              >
-                About
-              </a>
-              <a
-                href="service.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="service"
-              >
-                Service
-              </a>
-              <a
-                href="portfolio.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="portfolio"
-              >
-                Portfolio
-              </a>
-              <a
-                href="contact.html"
-                class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4"
-                data-nav="contact"
-              >
-                Contact
-              </a>
+              <a href="index.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="home"> Home </a>
+              <a href="about-us.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="about"> About </a>
+              <a href="service.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="service"> Service </a>
+              <a href="portfolio.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="portfolio"> Portfolio </a>
+              <a href="contact.html" class="mobile-nav-item text-center text-2xl font-medium text-gray-600 hover:text-primary transition-colors duration-200 py-4" data-nav="contact"> Contact </a>
             </div>
 
             <!-- CTA Button -->
             <div class="p-8">
-              <a
-                href="contact.html"
-                class="mobile-cta block w-full text-center bg-primary text-white px-8 py-4 text-lg font-medium rounded-full hover:bg-blue-700 transition-colors duration-200"
-              >
-                Hubungi Kami
-              </a>
+              <a href="contact.html" class="mobile-cta block w-full text-center bg-primary text-white px-8 py-4 text-lg font-medium rounded-full hover:bg-blue-700 transition-colors duration-200"> Hubungi Kami </a>
             </div>
           </div>
         </div>
@@ -252,11 +137,7 @@
 
         // Close mobile menu when clicking outside
         document.addEventListener("click", function (e) {
-          if (
-            isMobileMenuOpen &&
-            !mobileMenu.contains(e.target) &&
-            !mobileMenuButton.contains(e.target)
-          ) {
+          if (isMobileMenuOpen && !mobileMenu.contains(e.target) && !mobileMenuButton.contains(e.target)) {
             hideMobileMenu();
           }
         });
@@ -348,231 +229,131 @@
     </script>
     <main>
       <!-- Our Service Section -->
-      <section class="py-16 lg:py-20 bg-white">
+      <section class="py-12 lg:py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <!-- Header Section - Full Width -->
-          <div class="text-left mb-12">
+          <div class="text-center lg:text-left mb-8 lg:mb-12">
             <!-- Badge -->
-            <div class="inline-flex items-center mb-6">
-              <div
-                class="flex items-center bg-blue-50 border border-blue-200 rounded-full px-4 py-2"
-              >
-                <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                <span class="text-sm font-medium text-primary">
-                  Our Service</span
-                >
+            <div class="inline-flex items-center justify-center mb-4 lg:mb-6">
+              <div class="flex items-center bg-primary-50 border border-primary-100 rounded-full px-4 py-2">
+                <div class="w-3 h-3 bg-primary border-[2.5px] border-primary-100 rounded-full mr-3"></div>
+                <span class="text-sm font-medium text-primary"> Our Service</span>
               </div>
             </div>
 
             <!-- Title -->
-            <h2 class="text-4xl lg:text-5xl font-semibold leading-tight mb-6">
+            <h2 class="text-2xl sm:text-3xl lg:text-5xl font-semibold leading-tight mb-4 lg:mb-6">
               <span class="text-primary">Crafted Services</span>
               <span class="text-neutral-900"> for Every Occasion</span>
             </h2>
 
             <!-- Description -->
-            <p class="text-neutral-700 text-base w-full leading-relaxed">
-              Comprehensive event solutions tailored to your specific needs,
-              from intimate gatherings to large-scale corporate events and
-              everything in between.
-            </p>
+            <p class="text-neutral-700 text-sm sm:text-base w-full leading-relaxed max-w-2xl mx-auto lg:mx-0">Dari momen ekskusif hingga event berskala besar, kami rancang sesuai kebutuhan Anda.</p>
 
             <!-- Divider Line -->
-            <hr class="w-full bg-neutral-300 mt-8" />
+            <hr class="w-full bg-neutral-300 mt-6 lg:mt-8" />
           </div>
 
           <!-- Event Organizer Section -->
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <!-- Left Content -->
-            <div class="space-y-4">
-              <h3 class="text-3xl lg:text-4xl font-semibold text-neutral-900">
-                Event Organizer
-              </h3>
+            <div class="space-y-4 text-center lg:text-left">
+              <h3 class="text-2xl sm:text-3xl lg:text-4xl font-semibold text-neutral-900">Event Organizer</h3>
 
-              <p class="text-neutral-700 w-full text-base leading-relaxed">
-                Comprehensive event solutions tailored to your specific needs,
-                from intimate gatherings to large-scale corporate events and
-                everything in between.
-              </p>
+              <p class="text-neutral-700 w-full text-sm sm:text-base leading-relaxed">Merancang event mulai dari konsep, persiapan, hingga pelaksanaan agar acara berjalan lancar dan sesuai kebutuhan klien.</p>
 
               <!-- Services Grid -->
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-4">
                 <!-- Service 1 - Default -->
-                <div
-                  class="group bg-neutral-50 px-5 py-4 rounded-2xl hover:bg-[#00305E] transition-all duration-300 cursor-pointer"
-                >
+                <div class="group bg-neutral-50 px-4 lg:px-5 py-3 lg:py-4 rounded-2xl hover:bg-primary-700 transition-all duration-300 cursor-pointer">
                   <!-- Icon Placeholder -->
-                  <div
-                    class="w-14 h-14 bg-primary rounded-full flex items-center justify-center mb-6 transition-all duration-300"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="32"
-                      viewBox="0 0 20 32"
-                      fill="none"
-                      class="group-hover:stroke-primary transition-all duration-300"
-                    >
+                  <div class="w-12 h-12 lg:w-14 lg:h-14 bg-primary rounded-full flex items-center justify-center mb-4 lg:mb-6 transition-all duration-300 mx-auto lg:mx-0">
+                    <svg class="" xmlns="http://www.w3.org/2000/svg" width="20" height="32" viewBox="0 0 20 32" fill="none" class="group-hover:stroke-primary transition-all duration-300">
                       <path
                         d="M14.5 19C14.8 17.5 15.55 16.45 16.75 15.25C18.25 13.9 19 11.95 19 10C19 7.61305 18.0518 5.32387 16.364 3.63604C14.6761 1.94821 12.3869 1 10 1C7.61305 1 5.32387 1.94821 3.63604 3.63604C1.94821 5.32387 1 7.61305 1 10C1 11.5 1.3 13.3 3.25 15.25C4.3 16.3 5.2 17.5 5.5 19M5.5 25H14.5M7 31H13"
                         stroke="#F6FBFF"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                   </div>
 
                   <!-- Title -->
-                  <h4
-                    class="text-lg font-normal mb-4 text-neutral-700 group-hover:text-white transition-all duration-300"
-                  >
-                    Concept Development
-                  </h4>
+                  <h4 class="text-base lg:text-lg font-normal mb-2 text-neutral-900 group-hover:text-white transition-all duration-300">Concept Development</h4>
 
                   <!-- Description -->
-                  <p
-                    class="text-neutral-500 group-hover:text-neutral-300 leading-relaxed transition-all duration-300"
-                  >
-                    Turning ideas into unique and memorable event concepts.
-                  </p>
+                  <p class="text-sm lg:text-base text-neutral-700 group-hover:text-neutral-300 leading-relaxed transition-all duration-300">Merancang konsep yang sesuai dengan tema dan tujuan acara.</p>
                 </div>
 
                 <!-- Service 2 - Default -->
-                <div
-                  class="group bg-neutral-50 px-5 py-4 rounded-2xl hover:bg-[#00305E] transition-all duration-300 cursor-pointer"
-                >
+                <div class="group bg-neutral-50 px-4 lg:px-5 py-3 lg:py-4 rounded-2xl hover:bg-primary-700 transition-all duration-300 cursor-pointer">
                   <!-- Icon Placeholder -->
-                  <div
-                    class="w-14 h-14 bg-primary rounded-full flex items-center justify-center mb-6 transition-all duration-300"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="29"
-                      height="30"
-                      viewBox="0 0 29 30"
-                      fill="none"
-                      class="group-hover:stroke-primary transition-all duration-300"
-                    >
+                  <div class="w-12 h-12 lg:w-14 lg:h-14 bg-primary rounded-full flex items-center justify-center mb-4 lg:mb-6 transition-all duration-300 mx-auto lg:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none" class="group-hover:stroke-primary transition-all duration-300">
                       <path
                         d="M19 5.64513C18.5345 5.64513 18.0754 5.53681 17.659 5.32873L11.341 2.16973C10.9246 1.96166 10.4655 1.85333 10 1.85333M19 5.64513C19.4655 5.64513 19.9246 5.53681 20.341 5.32873L25.8295 2.58373C26.0584 2.46937 26.3127 2.41544 26.5682 2.42708C26.8238 2.43872 27.0722 2.51554 27.2897 2.65023C27.5072 2.78492 27.6867 2.973 27.811 3.1966C27.9353 3.4202 28.0004 3.67189 28 3.92773V23.0737C27.9999 23.3522 27.9222 23.6252 27.7757 23.862C27.6292 24.0989 27.4196 24.2902 27.1705 24.4147L20.341 27.8302C19.9246 28.0383 19.4655 28.1466 19 28.1466M19 5.64513V28.1466M19 28.1466C18.5345 28.1466 18.0754 28.0383 17.659 27.8302L11.341 24.6712C10.9246 24.4632 10.4655 24.3548 10 24.3548C9.53451 24.3548 9.0754 24.4632 8.659 24.6712L3.1705 27.4162C2.94153 27.5306 2.68709 27.5846 2.43139 27.5729C2.17569 27.5612 1.92724 27.4842 1.70968 27.3493C1.49212 27.2145 1.3127 27.0262 1.18847 26.8024C1.06425 26.5786 0.999373 26.3267 1 26.0707V6.92623C1.00015 6.64774 1.07783 6.37478 1.22433 6.13794C1.37084 5.9011 1.58038 5.70972 1.8295 5.58523L8.659 2.16973C9.0754 1.96166 9.53451 1.85333 10 1.85333M10 1.85333V24.3532"
                         stroke="#F6FBFF"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                   </div>
 
                   <!-- Title -->
-                  <h4
-                    class="text-lg font-normal mb-4 text-neutral-700 group-hover:text-white transition-all duration-300"
-                  >
-                    Venue Selection
-                  </h4>
+                  <h4 class="text-base lg:text-lg font-normal mb-2 text-neutral-900 group-hover:text-white transition-all duration-300">Venue Selection</h4>
 
                   <!-- Description -->
-                  <p
-                    class="text-neutral-500 group-hover:text-neutral-300 leading-relaxed transition-all duration-300"
-                  >
-                    Coordinating trusted vendors to deliver the best quality
-                    services.
-                  </p>
+                  <p class="text-sm lg:text-base text-neutral-700 group-hover:text-neutral-300 leading-relaxed transition-all duration-300">Koordinasi dengan vendor agar semua kebutuhan acara terpenuhi dengan baik.</p>
                 </div>
 
                 <!-- Service 3 - Default -->
-                <div
-                  class="group bg-neutral-50 px-5 py-4 rounded-2xl hover:bg-[#00305E] transition-all duration-300 cursor-pointer"
-                >
+                <div class="group bg-neutral-50 px-4 lg:px-5 py-3 lg:py-4 rounded-2xl hover:bg-primary-700 transition-all duration-300 cursor-pointer">
                   <!-- Icon Placeholder -->
-                  <div
-                    class="w-14 h-14 bg-primary rounded-full flex items-center justify-center mb-6 transition-all duration-300"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="22"
-                      height="22"
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      class="group-hover:stroke-primary transition-all duration-300"
-                    >
+                  <div class="w-12 h-12 lg:w-14 lg:h-14 bg-primary rounded-full flex items-center justify-center mb-4 lg:mb-6 transition-all duration-300 mx-auto lg:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none" class="group-hover:stroke-primary transition-all duration-300">
                       <path
                         d="M10 15.9396L12 17.9396C12.197 18.1366 12.4308 18.2928 12.6882 18.3994C12.9456 18.506 13.2214 18.5609 13.5 18.5609C13.7786 18.5609 14.0544 18.506 14.3118 18.3994C14.5692 18.2928 14.803 18.1366 15 17.9396C15.197 17.7426 15.3532 17.5088 15.4598 17.2514C15.5665 16.994 15.6213 16.7182 15.6213 16.4396C15.6213 16.161 15.5665 15.8852 15.4598 15.6278C15.3532 15.3704 15.197 15.1366 15 14.9396M13 12.9396L15.5 15.4396C15.8978 15.8374 16.4374 16.0609 17 16.0609C17.5626 16.0609 18.1022 15.8374 18.5 15.4396C18.8978 15.0418 19.1213 14.5022 19.1213 13.9396C19.1213 13.377 18.8978 12.8374 18.5 12.4396L14.62 8.55959C14.0575 7.99779 13.295 7.68223 12.5 7.68223C11.705 7.68223 10.9425 7.99779 10.38 8.55959L9.5 9.43959C9.10218 9.83742 8.56261 10.0609 8 10.0609C7.43739 10.0609 6.89782 9.83742 6.5 9.43959C6.10218 9.04177 5.87868 8.5022 5.87868 7.93959C5.87868 7.37698 6.10218 6.83742 6.5 6.43959L9.31 3.62959C10.2222 2.71973 11.4119 2.14014 12.6906 1.98256C13.9694 1.82498 15.2642 2.09842 16.37 2.75959L16.84 3.03959C17.2658 3.29658 17.772 3.38571 18.26 3.28959L20 2.93959M20 1.93959L21 12.9396H19M2 1.93959L1 12.9396L7.5 19.4396C7.89782 19.8374 8.43739 20.0609 9 20.0609C9.56261 20.0609 10.1022 19.8374 10.5 19.4396C10.8978 19.0418 11.1213 18.5022 11.1213 17.9396C11.1213 17.377 10.8978 16.8374 10.5 16.4396M2 2.93959H10"
                         stroke="#F6FBFF"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                   </div>
 
                   <!-- Title -->
-                  <h4
-                    class="text-lg font-normal mb-4 text-neutral-700 group-hover:text-white transition-all duration-300"
-                  >
-                    Vendor Management
-                  </h4>
+                  <h4 class="text-base lg:text-lg font-normal mb-2 text-neutral-900 group-hover:text-white transition-all duration-300">Event Execution</h4>
 
                   <!-- Description -->
-                  <p
-                    class="text-neutral-500 group-hover:text-neutral-300 leading-relaxed transition-all duration-300"
-                  >
-                    Coordinating trusted vendors to deliver the best quality
-                    services.
-                  </p>
+                  <p class="text-sm lg:text-base text-neutral-700 group-hover:text-neutral-300 leading-relaxed transition-all duration-300">Mengatur jalannya acara dan memastikan setiap detail berjalan lancar.</p>
                 </div>
 
                 <!-- Service 4 - Default -->
-                <div
-                  class="group bg-neutral-50 px-5 py-4 rounded-2xl hover:bg-[#00305E] transition-all duration-300 cursor-pointer"
-                >
+                <div class="group bg-neutral-50 px-4 lg:px-5 py-3 lg:py-4 rounded-2xl hover:bg-primary-700 transition-all duration-300 cursor-pointer">
                   <!-- Icon Placeholder -->
-                  <div
-                    class="w-14 h-14 bg-primary rounded-full flex items-center justify-center mb-6 transition-all duration-300"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="21"
-                      height="22"
-                      viewBox="0 0 21 22"
-                      fill="none"
-                      class="group-hover:stroke-primary transition-all duration-300"
-                    >
+                  <div class="w-12 h-12 lg:w-14 lg:h-14 bg-primary rounded-full flex items-center justify-center mb-4 lg:mb-6 transition-all duration-300 mx-auto lg:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" fill="none" class="group-hover:stroke-primary transition-all duration-300">
                       <path
                         d="M6 1V5M14 1V5M19 13V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H3C2.46957 3 1.96086 3.21071 1.58579 3.58579C1.21071 3.96086 1 4.46957 1 5V19C1 19.5304 1.21071 20.0391 1.58579 20.4142C1.96086 20.7893 2.46957 21 3 21H11M1 9H19M14 19L16 21L20 17"
                         stroke="#F6FBFF"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                   </div>
 
                   <!-- Title -->
-                  <h4
-                    class="text-lg font-normal mb-4 text-neutral-700 group-hover:text-white transition-all duration-300"
-                  >
-                    Timeline Coordination
-                  </h4>
+                  <h4 class="text-base lg:text-lg font-normal mb-2 text-neutral-900 group-hover:text-white transition-all duration-300">Mapping Layout</h4>
 
                   <!-- Description -->
-                  <p
-                    class="text-neutral-500 group-hover:text-neutral-300 leading-relaxed transition-all duration-300"
-                  >
-                    Managing schedules to keep everything on track.
-                  </p>
+                  <p class="text-sm lg:text-base text-neutral-700 group-hover:text-neutral-300 leading-relaxed transition-all duration-300">Mendesain tata letak venue sesuai kebutuan acara</p>
                 </div>
               </div>
             </div>
 
             <!-- Right Content - Image -->
-            <div class="relative">
+            <div class="relative order-first lg:order-last">
               <div class="rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                  src="./src/img/our-service-section.png"
-                  alt="Our Service - Event Photo"
-                  class="w-full h-[554px] object-cover"
-                />
+                <img src="./src/img/our-service-section.png" alt="Our Service - Event Photo" class="w-full h-[300px] sm:h-[400px] lg:h-[554px] object-cover" />
               </div>
             </div>
           </div>
@@ -580,310 +361,214 @@
       </section>
 
       <!-- Event Management Section -->
-      <section class="py-16 lg:py-20 bg-white">
+      <section class="py-12 lg:py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <!-- Event 1 - Event Management -->
-          <div
-            class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20"
-          >
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-16 lg:mb-20">
             <!-- Left Content - Image -->
             <div class="order-2 lg:order-1">
               <div class="rounded-2xl overflow-hidden">
-                <img
-                  src="./src/img/event-management-img.png"
-                  alt="Event Management"
-                  class="w-full h-[554px] object-cover"
-                />
+                <img src="./src/img/event-management-img.png" alt="Event Management" class="w-full h-[300px] sm:h-[400px] lg:h-[554px] object-cover" />
               </div>
             </div>
 
             <!-- Right Content - Text -->
-            <div class="order-1 lg:order-2 space-y-6">
-              <h2 class="text-4xl font-semibold text-neutral-900">
-                Event Management
-              </h2>
+            <div class="order-1 lg:order-2 space-y-4 text-center lg:text-left">
+              <h3 class="text-2xl sm:text-3xl lg:text-4xl font-semibold text-neutral-900">Event Management</h3>
 
-              <p class="text-neutral-700 text-base leading-relaxed">
-                Professional management services including logistics
-                coordination, vendor supervision, and on-site management to
-                ensure flawless execution.
-              </p>
+              <p class="text-neutral-700 w-full text-sm sm:text-base leading-relaxed">Mengelola proses acara agar setiap tahap berjalan sesuai rencana</p>
 
               <!-- Services Grid -->
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
-                <!-- Service 1 -->
-                <div class="bg-white border border-neutral-300 p-6 rounded-xl">
-                  <!-- Icon -->
-                  <div class="flex mb-4">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="36"
-                      height="36"
-                      viewBox="0 0 32 32"
-                      fill="none"
-                    >
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-4">
+                <!-- Service 1 - Default -->
+                <div class="group bg-neutral-50 px-4 lg:px-5 py-3 lg:py-4 rounded-2xl hover:bg-primary-700 transition-all duration-300 cursor-pointer">
+                  <!-- Icon Placeholder -->
+                  <div class="w-12 h-12 lg:w-14 lg:h-14 bg-primary rounded-full flex items-center justify-center mb-4 lg:mb-6 transition-all duration-300 mx-auto lg:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" viewBox="0 0 20 32" fill="none" class="group-hover:stroke-primary transition-all duration-300">
                       <path
-                        d="M16 7V16L22 19M31 16C31 24.2843 24.2843 31 16 31C7.71573 31 1 24.2843 1 16C1 7.71573 7.71573 1 16 1C24.2843 1 31 7.71573 31 16Z"
-                        stroke="black"
+                        d="M14.5 19C14.8 17.5 15.55 16.45 16.75 15.25C18.25 13.9 19 11.95 19 10C19 7.61305 18.0518 5.32387 16.364 3.63604C14.6761 1.94821 12.3869 1 10 1C7.61305 1 5.32387 1.94821 3.63604 3.63604C1.94821 5.32387 1 7.61305 1 10C1 11.5 1.3 13.3 3.25 15.25C4.3 16.3 5.2 17.5 5.5 19M5.5 25H14.5M7 31H13"
+                        stroke="#F6FBFF"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                   </div>
+
                   <!-- Title -->
-                  <h4 class="text-lg font-medium text-neutral-900 mb-3">
-                    Logistics Management
-                  </h4>
+                  <h4 class="text-base lg:text-lg font-normal mb-2 text-neutral-900 group-hover:text-white transition-all duration-300">Logistics Management</h4>
+
                   <!-- Description -->
-                  <p class="text-sm text-neutral-700 leading-relaxed">
-                    Handling all operational needs, from equipment to
-                    transportation.
-                  </p>
+                  <p class="text-sm lg:text-base text-neutral-700 group-hover:text-neutral-300 leading-relaxed transition-all duration-300">Mengatur seluruh kebutuhan logistik hingga distribusi perlengkapan acara</p>
                 </div>
 
-                <!-- Service 2 -->
-                <div class="bg-white border border-neutral-300 p-6 rounded-xl">
-                  <!-- Icon -->
-                  <div class="flex mb-4">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="36"
-                      height="36"
-                      viewBox="0 0 36 36"
-                      fill="none"
-                    >
+                <!-- Service 2 - Default -->
+                <div class="group bg-neutral-50 px-4 lg:px-5 py-3 lg:py-4 rounded-2xl hover:bg-primary-700 transition-all duration-300 cursor-pointer">
+                  <!-- Icon Placeholder -->
+                  <div class="w-12 h-12 lg:w-14 lg:h-14 bg-primary rounded-full flex items-center justify-center mb-4 lg:mb-6 transition-all duration-300 mx-auto lg:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none" class="group-hover:stroke-primary transition-all duration-300">
                       <path
-                        d="M27 31.5C27 28.3174 25.7357 25.2652 23.4853 23.0147C21.2348 20.7643 18.1826 19.5 15 19.5M15 19.5C11.8174 19.5 8.76516 20.7643 6.51472 23.0147C4.26428 25.2652 3 28.3174 3 31.5M15 19.5C19.1421 19.5 22.5 16.1421 22.5 12C22.5 7.85786 19.1421 4.5 15 4.5C10.8579 4.5 7.5 7.85786 7.5 12C7.5 16.1421 10.8579 19.5 15 19.5ZM33 30C33 24.945 30 20.25 27 18C27.9861 17.2602 28.7747 16.2886 29.2959 15.1714C29.817 14.0542 30.0548 12.8257 29.988 11.5947C29.9213 10.3637 29.5521 9.16813 28.9132 8.1138C28.2743 7.05947 27.3853 6.17889 26.325 5.55"
-                        stroke="black"
+                        d="M19 5.64513C18.5345 5.64513 18.0754 5.53681 17.659 5.32873L11.341 2.16973C10.9246 1.96166 10.4655 1.85333 10 1.85333M19 5.64513C19.4655 5.64513 19.9246 5.53681 20.341 5.32873L25.8295 2.58373C26.0584 2.46937 26.3127 2.41544 26.5682 2.42708C26.8238 2.43872 27.0722 2.51554 27.2897 2.65023C27.5072 2.78492 27.6867 2.973 27.811 3.1966C27.9353 3.4202 28.0004 3.67189 28 3.92773V23.0737C27.9999 23.3522 27.9222 23.6252 27.7757 23.862C27.6292 24.0989 27.4196 24.2902 27.1705 24.4147L20.341 27.8302C19.9246 28.0383 19.4655 28.1466 19 28.1466M19 5.64513V28.1466M19 28.1466C18.5345 28.1466 18.0754 28.0383 17.659 27.8302L11.341 24.6712C10.9246 24.4632 10.4655 24.3548 10 24.3548C9.53451 24.3548 9.0754 24.4632 8.659 24.6712L3.1705 27.4162C2.94153 27.5306 2.68709 27.5846 2.43139 27.5729C2.17569 27.5612 1.92724 27.4842 1.70968 27.3493C1.49212 27.2145 1.3127 27.0262 1.18847 26.8024C1.06425 26.5786 0.999373 26.3267 1 26.0707V6.92623C1.00015 6.64774 1.07783 6.37478 1.22433 6.13794C1.37084 5.9011 1.58038 5.70972 1.8295 5.58523L8.659 2.16973C9.0754 1.96166 9.53451 1.85333 10 1.85333M10 1.85333V24.3532"
+                        stroke="#F6FBFF"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                   </div>
+
                   <!-- Title -->
-                  <h4 class="text-lg font-medium text-neutral-900 mb-3">
-                    Vendor Coordination
-                  </h4>
+                  <h4 class="text-base lg:text-lg font-normal mb-2 text-neutral-900 group-hover:text-white transition-all duration-300">Vendor Coordination</h4>
+
                   <!-- Description -->
-                  <p class="text-sm text-neutral-700 leading-relaxed">
-                    Supervising vendors to ensure they deliver as promised.
-                  </p>
+                  <p class="text-sm lg:text-base text-neutral-700 group-hover:text-neutral-300 leading-relaxed transition-all duration-300">Berkoordinasi dengan semua vendor agar layanan dan kebutuhan acara terpenuhi.</p>
                 </div>
 
-                <!-- Service 3 -->
-                <div class="bg-white border border-neutral-300 p-6 rounded-xl">
-                  <!-- Icon -->
-                  <div class="flex mb-4">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="36"
-                      height="36"
-                      viewBox="0 0 35 36"
-                      fill="none"
-                    >
+                <!-- Service 3 - Default -->
+                <div class="group bg-neutral-50 px-4 lg:px-5 py-3 lg:py-4 rounded-2xl hover:bg-primary-700 transition-all duration-300 cursor-pointer">
+                  <!-- Icon Placeholder -->
+                  <div class="w-12 h-12 lg:w-14 lg:h-14 bg-primary rounded-full flex items-center justify-center mb-4 lg:mb-6 transition-all duration-300 mx-auto lg:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none" class="group-hover:stroke-primary transition-all duration-300">
                       <path
-                        d="M13.1249 17.9999L16.0416 20.9999L21.8749 14.9999M29.1666 19.4999C29.1666 26.9999 24.0624 30.7499 17.9958 32.9249C17.6781 33.0357 17.333 33.0304 17.0187 32.9099C10.9374 30.7499 5.83325 26.9999 5.83325 19.4999V8.99994C5.83325 8.60212 5.9869 8.22059 6.26039 7.93928C6.53388 7.65798 6.90481 7.49994 7.29159 7.49994C10.2083 7.49994 13.8541 5.69994 16.3916 3.41994C16.7005 3.14844 17.0936 2.99927 17.4999 2.99927C17.9063 2.99927 18.2993 3.14844 18.6083 3.41994C21.1603 5.71494 24.7916 7.49994 27.7083 7.49994C28.095 7.49994 28.466 7.65798 28.7395 7.93928C29.0129 8.22059 29.1666 8.60212 29.1666 8.99994V19.4999Z"
-                        stroke="black"
+                        d="M10 15.9396L12 17.9396C12.197 18.1366 12.4308 18.2928 12.6882 18.3994C12.9456 18.506 13.2214 18.5609 13.5 18.5609C13.7786 18.5609 14.0544 18.506 14.3118 18.3994C14.5692 18.2928 14.803 18.1366 15 17.9396C15.197 17.7426 15.3532 17.5088 15.4598 17.2514C15.5665 16.994 15.6213 16.7182 15.6213 16.4396C15.6213 16.161 15.5665 15.8852 15.4598 15.6278C15.3532 15.3704 15.197 15.1366 15 14.9396M13 12.9396L15.5 15.4396C15.8978 15.8374 16.4374 16.0609 17 16.0609C17.5626 16.0609 18.1022 15.8374 18.5 15.4396C18.8978 15.0418 19.1213 14.5022 19.1213 13.9396C19.1213 13.377 18.8978 12.8374 18.5 12.4396L14.62 8.55959C14.0575 7.99779 13.295 7.68223 12.5 7.68223C11.705 7.68223 10.9425 7.99779 10.38 8.55959L9.5 9.43959C9.10218 9.83742 8.56261 10.0609 8 10.0609C7.43739 10.0609 6.89782 9.83742 6.5 9.43959C6.10218 9.04177 5.87868 8.5022 5.87868 7.93959C5.87868 7.37698 6.10218 6.83742 6.5 6.43959L9.31 3.62959C10.2222 2.71973 11.4119 2.14014 12.6906 1.98256C13.9694 1.82498 15.2642 2.09842 16.37 2.75959L16.84 3.03959C17.2658 3.29658 17.772 3.38571 18.26 3.28959L20 2.93959M20 1.93959L21 12.9396H19M2 1.93959L1 12.9396L7.5 19.4396C7.89782 19.8374 8.43739 20.0609 9 20.0609C9.56261 20.0609 10.1022 19.8374 10.5 19.4396C10.8978 19.0418 11.1213 18.5022 11.1213 17.9396C11.1213 17.377 10.8978 16.8374 10.5 16.4396M2 2.93959H10"
+                        stroke="#F6FBFF"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                   </div>
+
                   <!-- Title -->
-                  <h4 class="text-lg font-medium text-neutral-900 mb-3">
-                    On-site Supervision
-                  </h4>
+                  <h4 class="text-base lg:text-lg font-normal mb-2 text-neutral-900 group-hover:text-white transition-all duration-300">On-site Supervision</h4>
+
                   <!-- Description -->
-                  <p class="text-sm text-neutral-700 leading-relaxed">
-                    A dedicated team managing everything during the event.
-                  </p>
+                  <p class="text-sm lg:text-base text-neutral-700 group-hover:text-neutral-300 leading-relaxed transition-all duration-300">Mengawasi langsung jalannya acara agar berjalan sesuai rencana</p>
                 </div>
 
-                <!-- Service 4 -->
-                <div class="bg-white border border-neutral-300 p-6 rounded-xl">
-                  <!-- Icon -->
-                  <div class="flex mb-4">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="36"
-                      height="36"
-                      viewBox="0 0 36 36"
-                      fill="none"
-                    >
+                <!-- Service 4 - Default -->
+                <div class="group bg-neutral-50 px-4 lg:px-5 py-3 lg:py-4 rounded-2xl hover:bg-primary-700 transition-all duration-300 cursor-pointer">
+                  <!-- Icon Placeholder -->
+                  <div class="w-12 h-12 lg:w-14 lg:h-14 bg-primary rounded-full flex items-center justify-center mb-4 lg:mb-6 transition-all duration-300 mx-auto lg:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" fill="none" class="group-hover:stroke-primary transition-all duration-300">
                       <path
-                        d="M30.0002 3.00005V9.00005M33.0002 6.00005H27.0002M16.5257 4.22105C16.5899 3.87696 16.7725 3.56617 17.0418 3.34253C17.3111 3.11888 17.6501 2.99646 18.0002 2.99646C18.3502 2.99646 18.6892 3.11888 18.9585 3.34253C19.2278 3.56617 19.4104 3.87696 19.4747 4.22105L21.0512 12.5581C21.1631 13.1508 21.4512 13.696 21.8777 14.1225C22.3042 14.549 22.8495 14.8371 23.4422 14.9491L31.7792 16.5256C32.1233 16.5898 32.434 16.7724 32.6577 17.0417C32.8813 17.311 33.0038 17.65 33.0038 18.0001C33.0038 18.3501 32.8813 18.6891 32.6577 18.9584C32.434 19.2277 32.1233 19.4103 31.7792 19.4746L23.4422 21.0511C22.8495 21.163 22.3042 21.4511 21.8777 21.8776C21.4512 22.3041 21.1631 22.8493 21.0512 23.4421L19.4747 31.7791C19.4104 32.1231 19.2278 32.4339 18.9585 32.6576C18.6892 32.8812 18.3502 33.0036 18.0002 33.0036C17.6501 33.0036 17.3111 32.8812 17.0418 32.6576C16.7725 32.4339 16.5899 32.1231 16.5257 31.7791L14.9492 23.4421C14.8372 22.8493 14.5492 22.3041 14.1226 21.8776C13.6961 21.4511 13.1509 21.163 12.5582 21.0511L4.22117 19.4746C3.87708 19.4103 3.5663 19.2277 3.34265 18.9584C3.11901 18.6891 2.99658 18.3501 2.99658 18.0001C2.99658 17.65 3.11901 17.311 3.34265 17.0417C3.5663 16.7724 3.87708 16.5898 4.22117 16.5256L12.5582 14.9491C13.1509 14.8371 13.6961 14.549 14.1226 14.1225C14.5492 13.696 14.8372 13.1508 14.9492 12.5581L16.5257 4.22105ZM9.00017 30.0001C9.00017 31.6569 7.65703 33.0001 6.00017 33.0001C4.34332 33.0001 3.00017 31.6569 3.00017 30.0001C3.00017 28.3432 4.34332 27.0001 6.00017 27.0001C7.65703 27.0001 9.00017 28.3432 9.00017 30.0001Z"
-                        stroke="black"
+                        d="M6 1V5M14 1V5M19 13V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H3C2.46957 3 1.96086 3.21071 1.58579 3.58579C1.21071 3.96086 1 4.46957 1 5V19C1 19.5304 1.21071 20.0391 1.58579 20.4142C1.96086 20.7893 2.46957 21 3 21H11M1 9H19M14 19L16 21L20 17"
+                        stroke="#F6FBFF"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                   </div>
+
                   <!-- Title -->
-                  <h4 class="text-lg font-medium text-neutral-900 mb-3">
-                    Risk Management
-                  </h4>
+                  <h4 class="text-base lg:text-lg font-normal mb-2 text-neutral-900 group-hover:text-white transition-all duration-300">Risk Management</h4>
+
                   <!-- Description -->
-                  <p class="text-sm text-neutral-700 leading-relaxed">
-                    Anticipating and resolving challenges quickly and
-                    effectively.
-                  </p>
+                  <p class="text-sm lg:text-base text-neutral-700 group-hover:text-neutral-300 leading-relaxed transition-all duration-300">Mengidentifikasi potensi risiko dan menyiapkan solusi agar acara tetap aman dan lancar.</p>
                 </div>
               </div>
             </div>
           </div>
 
           <!-- Event 2 - Event Promotor -->
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <!-- Left Content - Text -->
-            <div class="space-y-6">
-              <h2 class="text-4xl font-semibold text-neutral-900">
-                Event Promotor
-              </h2>
+            <div class="space-y-4 text-center lg:text-left">
+              <h3 class="text-2xl sm:text-3xl lg:text-4xl font-semibold text-neutral-900">Event Promotor</h3>
 
-              <p class="text-neutral-700 text-base leading-relaxed">
-                Strategic promotion and marketing services to maximize
-                attendance and engagement for your events through targeted
-                campaigns.
-              </p>
+              <p class="text-neutral-700 w-full text-sm sm:text-base leading-relaxed">Mengelola dan mempromosikan acara secara menyeluruh, mulai dari perencanaan, produksi, hingga pelaksanaan di lapangan</p>
 
               <!-- Services Grid -->
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
-                <!-- Service 1 -->
-                <div class="bg-white border border-neutral-300 p-6 rounded-xl">
-                  <!-- Icon -->
-                  <div class="flex mb-4">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="36"
-                      height="36"
-                      viewBox="0 0 32 32"
-                      fill="none"
-                    >
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-4">
+                <!-- Service 1 - Default -->
+                <div class="group bg-neutral-50 px-4 lg:px-5 py-3 lg:py-4 rounded-2xl hover:bg-primary-700 transition-all duration-300 cursor-pointer">
+                  <!-- Icon Placeholder -->
+                  <div class="w-12 h-12 lg:w-14 lg:h-14 bg-primary rounded-full flex items-center justify-center mb-4 lg:mb-6 transition-all duration-300 mx-auto lg:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" viewBox="0 0 20 32" fill="none" class="group-hover:stroke-primary transition-all duration-300">
                       <path
-                        d="M16 7V16L22 19M31 16C31 24.2843 24.2843 31 16 31C7.71573 31 1 24.2843 1 16C1 7.71573 7.71573 1 16 1C24.2843 1 31 7.71573 31 16Z"
-                        stroke="black"
+                        d="M14.5 19C14.8 17.5 15.55 16.45 16.75 15.25C18.25 13.9 19 11.95 19 10C19 7.61305 18.0518 5.32387 16.364 3.63604C14.6761 1.94821 12.3869 1 10 1C7.61305 1 5.32387 1.94821 3.63604 3.63604C1.94821 5.32387 1 7.61305 1 10C1 11.5 1.3 13.3 3.25 15.25C4.3 16.3 5.2 17.5 5.5 19M5.5 25H14.5M7 31H13"
+                        stroke="#F6FBFF"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                   </div>
+
                   <!-- Title -->
-                  <h4 class="text-lg font-medium text-neutral-900 mb-3">
-                    Logistics Management
-                  </h4>
+                  <h4 class="text-base lg:text-lg font-normal mb-2 text-neutral-900 group-hover:text-white transition-all duration-300">Event Creation & Production</h4>
+
                   <!-- Description -->
-                  <p class="text-sm text-neutral-700 leading-relaxed">
-                    Handling all operational needs, from equipment to
-                    transportation.
-                  </p>
+                  <p class="text-sm lg:text-base text-neutral-700 group-hover:text-neutral-300 leading-relaxed transition-all duration-300">Merancang konsep acara dan menangani seluruh kebutuhan produksi.</p>
                 </div>
 
-                <!-- Service 2 -->
-                <div class="bg-white border border-neutral-300 p-6 rounded-xl">
-                  <!-- Icon -->
-                  <div class="flex mb-4">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="36"
-                      height="36"
-                      viewBox="0 0 36 36"
-                      fill="none"
-                    >
+                <!-- Service 2 - Default -->
+                <div class="group bg-neutral-50 px-4 lg:px-5 py-3 lg:py-4 rounded-2xl hover:bg-primary-700 transition-all duration-300 cursor-pointer">
+                  <!-- Icon Placeholder -->
+                  <div class="w-12 h-12 lg:w-14 lg:h-14 bg-primary rounded-full flex items-center justify-center mb-4 lg:mb-6 transition-all duration-300 mx-auto lg:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none" class="group-hover:stroke-primary transition-all duration-300">
                       <path
-                        d="M27 31.5C27 28.3174 25.7357 25.2652 23.4853 23.0147C21.2348 20.7643 18.1826 19.5 15 19.5M15 19.5C11.8174 19.5 8.76516 20.7643 6.51472 23.0147C4.26428 25.2652 3 28.3174 3 31.5M15 19.5C19.1421 19.5 22.5 16.1421 22.5 12C22.5 7.85786 19.1421 4.5 15 4.5C10.8579 4.5 7.5 7.85786 7.5 12C7.5 16.1421 10.8579 19.5 15 19.5ZM33 30C33 24.945 30 20.25 27 18C27.9861 17.2602 28.7747 16.2886 29.2959 15.1714C29.817 14.0542 30.0548 12.8257 29.988 11.5947C29.9213 10.3637 29.5521 9.16813 28.9132 8.1138C28.2743 7.05947 27.3853 6.17889 26.325 5.55"
-                        stroke="black"
+                        d="M19 5.64513C18.5345 5.64513 18.0754 5.53681 17.659 5.32873L11.341 2.16973C10.9246 1.96166 10.4655 1.85333 10 1.85333M19 5.64513C19.4655 5.64513 19.9246 5.53681 20.341 5.32873L25.8295 2.58373C26.0584 2.46937 26.3127 2.41544 26.5682 2.42708C26.8238 2.43872 27.0722 2.51554 27.2897 2.65023C27.5072 2.78492 27.6867 2.973 27.811 3.1966C27.9353 3.4202 28.0004 3.67189 28 3.92773V23.0737C27.9999 23.3522 27.9222 23.6252 27.7757 23.862C27.6292 24.0989 27.4196 24.2902 27.1705 24.4147L20.341 27.8302C19.9246 28.0383 19.4655 28.1466 19 28.1466M19 5.64513V28.1466M19 28.1466C18.5345 28.1466 18.0754 28.0383 17.659 27.8302L11.341 24.6712C10.9246 24.4632 10.4655 24.3548 10 24.3548C9.53451 24.3548 9.0754 24.4632 8.659 24.6712L3.1705 27.4162C2.94153 27.5306 2.68709 27.5846 2.43139 27.5729C2.17569 27.5612 1.92724 27.4842 1.70968 27.3493C1.49212 27.2145 1.3127 27.0262 1.18847 26.8024C1.06425 26.5786 0.999373 26.3267 1 26.0707V6.92623C1.00015 6.64774 1.07783 6.37478 1.22433 6.13794C1.37084 5.9011 1.58038 5.70972 1.8295 5.58523L8.659 2.16973C9.0754 1.96166 9.53451 1.85333 10 1.85333M10 1.85333V24.3532"
+                        stroke="#F6FBFF"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                   </div>
+
                   <!-- Title -->
-                  <h4 class="text-lg font-medium text-neutral-900 mb-3">
-                    Vendor Coordination
-                  </h4>
+                  <h4 class="text-base lg:text-lg font-normal mb-2 text-neutral-900 group-hover:text-white transition-all duration-300">Hospitality & Artist Handling</h4>
+
                   <!-- Description -->
-                  <p class="text-sm text-neutral-700 leading-relaxed">
-                    Supervising vendors to ensure they deliver as promised.
-                  </p>
+                  <p class="text-sm lg:text-base text-neutral-700 group-hover:text-neutral-300 leading-relaxed transition-all duration-300">Mengatur kenyamanan tamu serta kebutuhan artis secara profesional.</p>
                 </div>
 
-                <!-- Service 3 -->
-                <div class="bg-white border border-neutral-300 p-6 rounded-xl">
-                  <!-- Icon -->
-                  <div class="flex mb-4">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="36"
-                      height="36"
-                      viewBox="0 0 35 36"
-                      fill="none"
-                    >
+                <!-- Service 3 - Default -->
+                <div class="group bg-neutral-50 px-4 lg:px-5 py-3 lg:py-4 rounded-2xl hover:bg-primary-700 transition-all duration-300 cursor-pointer">
+                  <!-- Icon Placeholder -->
+                  <div class="w-12 h-12 lg:w-14 lg:h-14 bg-primary rounded-full flex items-center justify-center mb-4 lg:mb-6 transition-all duration-300 mx-auto lg:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none" class="group-hover:stroke-primary transition-all duration-300">
                       <path
-                        d="M13.1249 17.9999L16.0416 20.9999L21.8749 14.9999M29.1666 19.4999C29.1666 26.9999 24.0624 30.7499 17.9958 32.9249C17.6781 33.0357 17.333 33.0304 17.0187 32.9099C10.9374 30.7499 5.83325 26.9999 5.83325 19.4999V8.99994C5.83325 8.60212 5.9869 8.22059 6.26039 7.93928C6.53388 7.65798 6.90481 7.49994 7.29159 7.49994C10.2083 7.49994 13.8541 5.69994 16.3916 3.41994C16.7005 3.14844 17.0936 2.99927 17.4999 2.99927C17.9063 2.99927 18.2993 3.14844 18.6083 3.41994C21.1603 5.71494 24.7916 7.49994 27.7083 7.49994C28.095 7.49994 28.466 7.65798 28.7395 7.93928C29.0129 8.22059 29.1666 8.60212 29.1666 8.99994V19.4999Z"
-                        stroke="black"
+                        d="M10 15.9396L12 17.9396C12.197 18.1366 12.4308 18.2928 12.6882 18.3994C12.9456 18.506 13.2214 18.5609 13.5 18.5609C13.7786 18.5609 14.0544 18.506 14.3118 18.3994C14.5692 18.2928 14.803 18.1366 15 17.9396C15.197 17.7426 15.3532 17.5088 15.4598 17.2514C15.5665 16.994 15.6213 16.7182 15.6213 16.4396C15.6213 16.161 15.5665 15.8852 15.4598 15.6278C15.3532 15.3704 15.197 15.1366 15 14.9396M13 12.9396L15.5 15.4396C15.8978 15.8374 16.4374 16.0609 17 16.0609C17.5626 16.0609 18.1022 15.8374 18.5 15.4396C18.8978 15.0418 19.1213 14.5022 19.1213 13.9396C19.1213 13.377 18.8978 12.8374 18.5 12.4396L14.62 8.55959C14.0575 7.99779 13.295 7.68223 12.5 7.68223C11.705 7.68223 10.9425 7.99779 10.38 8.55959L9.5 9.43959C9.10218 9.83742 8.56261 10.0609 8 10.0609C7.43739 10.0609 6.89782 9.83742 6.5 9.43959C6.10218 9.04177 5.87868 8.5022 5.87868 7.93959C5.87868 7.37698 6.10218 6.83742 6.5 6.43959L9.31 3.62959C10.2222 2.71973 11.4119 2.14014 12.6906 1.98256C13.9694 1.82498 15.2642 2.09842 16.37 2.75959L16.84 3.03959C17.2658 3.29658 17.772 3.38571 18.26 3.28959L20 2.93959M20 1.93959L21 12.9396H19M2 1.93959L1 12.9396L7.5 19.4396C7.89782 19.8374 8.43739 20.0609 9 20.0609C9.56261 20.0609 10.1022 19.8374 10.5 19.4396C10.8978 19.0418 11.1213 18.5022 11.1213 17.9396C11.1213 17.377 10.8978 16.8374 10.5 16.4396M2 2.93959H10"
+                        stroke="#F6FBFF"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                   </div>
+
                   <!-- Title -->
-                  <h4 class="text-lg font-medium text-neutral-900 mb-3">
-                    On-site Supervision
-                  </h4>
+                  <h4 class="text-base lg:text-lg font-normal mb-2 text-neutral-900 group-hover:text-white transition-all duration-300">Show Management</h4>
+
                   <!-- Description -->
-                  <p class="text-sm text-neutral-700 leading-relaxed">
-                    A dedicated team managing everything during the event.
-                  </p>
+                  <p class="text-sm lg:text-base text-neutral-700 group-hover:text-neutral-300 leading-relaxed transition-all duration-300">Mengelola jalannya acara agar sesuai alur dan tepat waktu.</p>
                 </div>
 
-                <!-- Service 4 -->
-                <div class="bg-white border border-neutral-300 p-6 rounded-xl">
-                  <!-- Icon -->
-                  <div class="flex mb-4">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="36"
-                      height="36"
-                      viewBox="0 0 36 36"
-                      fill="none"
-                    >
+                <!-- Service 4 - Default -->
+                <div class="group bg-neutral-50 px-4 lg:px-5 py-3 lg:py-4 rounded-2xl hover:bg-primary-700 transition-all duration-300 cursor-pointer">
+                  <!-- Icon Placeholder -->
+                  <div class="w-12 h-12 lg:w-14 lg:h-14 bg-primary rounded-full flex items-center justify-center mb-4 lg:mb-6 transition-all duration-300 mx-auto lg:mx-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" fill="none" class="group-hover:stroke-primary transition-all duration-300">
                       <path
-                        d="M30.0002 3.00005V9.00005M33.0002 6.00005H27.0002M16.5257 4.22105C16.5899 3.87696 16.7725 3.56617 17.0418 3.34253C17.3111 3.11888 17.6501 2.99646 18.0002 2.99646C18.3502 2.99646 18.6892 3.11888 18.9585 3.34253C19.2278 3.56617 19.4104 3.87696 19.4747 4.22105L21.0512 12.5581C21.1631 13.1508 21.4512 13.696 21.8777 14.1225C22.3042 14.549 22.8495 14.8371 23.4422 14.9491L31.7792 16.5256C32.1233 16.5898 32.434 16.7724 32.6577 17.0417C32.8813 17.311 33.0038 17.65 33.0038 18.0001C33.0038 18.3501 32.8813 18.6891 32.6577 18.9584C32.434 19.2277 32.1233 19.4103 31.7792 19.4746L23.4422 21.0511C22.8495 21.163 22.3042 21.4511 21.8777 21.8776C21.4512 22.3041 21.1631 22.8493 21.0512 23.4421L19.4747 31.7791C19.4104 32.1231 19.2278 32.4339 18.9585 32.6576C18.6892 32.8812 18.3502 33.0036 18.0002 33.0036C17.6501 33.0036 17.3111 32.8812 17.0418 32.6576C16.7725 32.4339 16.5899 32.1231 16.5257 31.7791L14.9492 23.4421C14.8372 22.8493 14.5492 22.3041 14.1226 21.8776C13.6961 21.4511 13.1509 21.163 12.5582 21.0511L4.22117 19.4746C3.87708 19.4103 3.5663 19.2277 3.34265 18.9584C3.11901 18.6891 2.99658 18.3501 2.99658 18.0001C2.99658 17.65 3.11901 17.311 3.34265 17.0417C3.5663 16.7724 3.87708 16.5898 4.22117 16.5256L12.5582 14.9491C13.1509 14.8371 13.6961 14.549 14.1226 14.1225C14.5492 13.696 14.8372 13.1508 14.9492 12.5581L16.5257 4.22105ZM9.00017 30.0001C9.00017 31.6569 7.65703 33.0001 6.00017 33.0001C4.34332 33.0001 3.00017 31.6569 3.00017 30.0001C3.00017 28.3432 4.34332 27.0001 6.00017 27.0001C7.65703 27.0001 9.00017 28.3432 9.00017 30.0001Z"
-                        stroke="black"
+                        d="M6 1V5M14 1V5M19 13V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H3C2.46957 3 1.96086 3.21071 1.58579 3.58579C1.21071 3.96086 1 4.46957 1 5V19C1 19.5304 1.21071 20.0391 1.58579 20.4142C1.96086 20.7893 2.46957 21 3 21H11M1 9H19M14 19L16 21L20 17"
+                        stroke="#F6FBFF"
                         stroke-width="2"
                         stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
+                        stroke-linejoin="round" />
                     </svg>
                   </div>
+
                   <!-- Title -->
-                  <h4 class="text-lg font-medium text-neutral-900 mb-3">
-                    Risk Management
-                  </h4>
+                  <h4 class="text-base lg:text-lg font-normal mb-2 text-neutral-900 group-hover:text-white transition-all duration-300">Concept & Execution</h4>
+
                   <!-- Description -->
-                  <p class="text-sm text-neutral-700 leading-relaxed">
-                    Anticipating and resolving challenges quickly and
-                    effectively.
+                  <p class="text-sm lg:text-base text-neutral-700 group-hover:text-neutral-300 leading-relaxed transition-all duration-300">
+                    Secara terarah agar sesuai tujuan acara dan eksekusi secara terarah agar sesuai dengan tujuan acara.
                   </p>
                 </div>
               </div>
             </div>
 
             <!-- Right Content - Image -->
-            <div>
+            <div class="order-first lg:order-last">
               <div class="rounded-2xl overflow-hidden">
-                <img
-                  src="./src/img/event-promotor-img.png"
-                  alt="Event Promotor"
-                  class="w-full h-[554px] object-cover"
-                />
+                <img src="./src/img/event-promotor-img.png" alt="Event Promotor" class="w-full h-[300px] sm:h-[400px] lg:h-[554px] object-cover" />
               </div>
             </div>
           </div>
@@ -891,331 +576,159 @@
       </section>
 
       <!-- Testimonial Section -->
-      <section id="testimonial" class="py-20 bg-[#F6FBFF]">
+      <section id="testimonial" class="py-16 lg:py-20 bg-primary-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <!-- Header -->
-          <div class="text-center mb-16">
+          <div class="text-center mb-12 lg:mb-16">
             <!-- Badge -->
-            <div class="inline-flex items-center justify-center mb-6">
-              <div
-                class="flex items-center bg-[#F0F8FF] border border-[#B8D4ED] rounded-full px-4 py-2"
-              >
-                <div
-                  class="w-3 h-3 bg-primary border-[2.5px] border-[#B8D4ED] rounded-full mr-3"
-                ></div>
-                <span class="text-sm font-medium text-primary"
-                  >Testimonial</span
-                >
+            <div class="inline-flex items-center justify-center mb-4 lg:mb-6">
+              <div class="flex items-center bg-primary-50 border border-primary-100 rounded-full px-4 py-2">
+                <div class="w-3 h-3 bg-primary border-[2.5px] border-primary-100 rounded-full mr-3"></div>
+                <span class="text-sm font-medium text-primary">Testimonial</span>
               </div>
             </div>
 
             <!-- Title -->
-            <h2
-              class="text-3xl lg:text-4xl font-bold leading-tight mb-6 text-gray-800"
-            >
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold leading-tight mb-4 lg:mb-6 text-neutral-900">
               <span class="text-primary">Everything You Need</span>
               for Your Event
             </h2>
 
             <!-- Description -->
-            <p
-              class="text-gray-600 text-base max-w-2xl mx-auto leading-relaxed"
-            >
-              From initial concept to final execution, we provide comprehensive
-              event solutions that ensure your vision comes to life flawlessly.
-            </p>
+            <p class="text-neutral-700 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">From initial concept to final execution, we provide comprehensive event solutions that ensure your vision comes to life flawlessly.</p>
           </div>
 
           <!-- Testimonials Grid -->
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             <!-- Testimonial Card 1 -->
-            <div
-              class="bg-white rounded-2xl p-6 border border-[#B8D4ED] transition-all duration-300 group hover:-translate-y-2"
-            >
+            <div class="bg-white rounded-2xl p-4 lg:p-6 border border-primary-100 transition-all duration-300 group hover:-translate-y-2">
               <!-- Profile -->
-              <div class="flex items-center mb-4">
-                <div
-                  class="w-12 h-12 rounded-full overflow-hidden mr-3 flex-shrink-0"
-                >
+              <div class="flex items-center mb-3 lg:mb-4">
+                <div class="w-10 h-10 lg:w-12 lg:h-12 rounded-full overflow-hidden mr-3 flex-shrink-0">
                   <img
                     src="https://images.unsplash.com/photo-1724064710352-3cbcee4bc3a8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Yuli"
-                    class="w-full h-full object-cover"
-                  />
+                    class="w-full h-full object-cover" />
                 </div>
                 <div>
-                  <h4 class="font-semibold text-gray-800 text-base">Yuli</h4>
-                  <p class="text-gray-600 text-sm">Marketing Director</p>
+                  <h4 class="font-medium text-neutral-900 text-sm lg:text-base">Yuli</h4>
+                  <p class="text-neutral-700 text-xs lg:text-sm">Marketing Director</p>
                 </div>
               </div>
 
               <!-- Testimonial Content -->
-              <div class="space-y-4">
-                <p class="text-[#404040] leading-relaxed text-sm">
-                  "Julian Production exceeded our expectations. Their attention
-                  to detail and professional execution made our product launch
-                  event absolutely memorable. The team was responsive and
-                  creative throughout the entire process."
+              <div class="space-y-3 lg:space-y-4">
+                <p class="text-neutral-700 leading-relaxed text-sm lg:text-base">
+                  "Julian Production exceeded our expectations. Their attention to detail and professional execution made our product launch event absolutely memorable. The team was responsive and creative throughout the entire process."
                 </p>
 
                 <!-- Star Rating -->
                 <div class="flex items-center space-x-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
                 </div>
               </div>
             </div>
 
             <!-- Testimonial Card 2 -->
-            <div
-              class="bg-white rounded-2xl p-6 border border-[#B8D4ED] transition-all duration-300 group hover:-translate-y-2"
-            >
+            <div class="bg-white rounded-2xl p-4 lg:p-6 border border-primary-100 transition-all duration-300 group hover:-translate-y-2">
               <!-- Profile -->
-              <div class="flex items-center mb-4">
-                <div
-                  class="w-12 h-12 rounded-full overflow-hidden mr-3 flex-shrink-0"
-                >
-                  <img
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face"
-                    alt="Sarah"
-                    class="w-full h-full object-cover"
-                  />
+              <div class="flex items-center mb-3 lg:mb-4">
+                <div class="w-10 h-10 lg:w-12 lg:h-12 rounded-full overflow-hidden mr-3 flex-shrink-0">
+                  <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Sarah" class="w-full h-full object-cover" />
                 </div>
                 <div>
-                  <h4 class="font-semibold text-gray-800 text-base">Sarah</h4>
-                  <p class="text-gray-600 text-sm">Brand Manager</p>
+                  <h4 class="font-medium text-neutral-900 text-sm lg:text-base">Sarah</h4>
+                  <p class="text-neutral-700 text-xs lg:text-sm">Brand Manager</p>
                 </div>
               </div>
 
               <!-- Testimonial Content -->
-              <div class="space-y-4">
-                <p class="text-[#404040] leading-relaxed text-sm">
-                  "Working with Julian Production was a game-changer for our
-                  brand activation campaign. They understood our vision
-                  perfectly and delivered an engaging experience that resonated
-                  with our target audience."
+              <div class="space-y-3 lg:space-y-4">
+                <p class="text-neutral-700 leading-relaxed text-sm lg:text-base">
+                  "Working with Julian Production was a game-changer for our brand activation campaign. They understood our vision perfectly and delivered an engaging experience that resonated with our target audience."
                 </p>
 
                 <!-- Star Rating -->
                 <div class="flex items-center space-x-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
                 </div>
               </div>
             </div>
 
             <!-- Testimonial Card 3 -->
-            <div
-              class="bg-white rounded-2xl p-6 border border-[#B8D4ED] transition-all duration-300 group hover:-translate-y-2"
-            >
+            <div class="bg-white rounded-2xl p-4 lg:p-6 border border-primary-100 transition-all duration-300 group hover:-translate-y-2">
               <!-- Profile -->
-              <div class="flex items-center mb-4">
-                <div
-                  class="w-12 h-12 rounded-full overflow-hidden mr-3 flex-shrink-0"
-                >
-                  <img
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
-                    alt="Joko"
-                    class="w-full h-full object-cover"
-                  />
+              <div class="flex items-center mb-3 lg:mb-4">
+                <div class="w-10 h-10 lg:w-12 lg:h-12 rounded-full overflow-hidden mr-3 flex-shrink-0">
+                  <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Joko" class="w-full h-full object-cover" />
                 </div>
                 <div>
-                  <h4 class="font-semibold text-gray-800 text-base">Joko</h4>
-                  <p class="text-gray-600 text-sm">Event Coordinator</p>
+                  <h4 class="font-medium text-neutral-900 text-sm lg:text-base">Joko</h4>
+                  <p class="text-neutral-700 text-xs lg:text-sm">Event Coordinator</p>
                 </div>
               </div>
 
               <!-- Testimonial Content -->
-              <div class="space-y-4">
-                <p class="text-[#404040] leading-relaxed text-sm">
-                  "From planning to execution, Julian Production demonstrated
-                  exceptional professionalism. Our corporate gathering was
-                  seamless, and our guests were thoroughly impressed with the
-                  quality of service."
+              <div class="space-y-3 lg:space-y-4">
+                <p class="text-neutral-700 leading-relaxed text-sm lg:text-base">
+                  "From planning to execution, Julian Production demonstrated exceptional professionalism. Our corporate gathering was seamless, and our guests were thoroughly impressed with the quality of service."
                 </p>
 
                 <!-- Star Rating -->
                 <div class="flex items-center space-x-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="20"
-                    viewBox="0 0 22 20"
-                    fill="none"
-                  >
-                    <path
-                      d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
-                      fill="#FA9A24"
-                    />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                    <path d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z" fill="#FA9A24" />
                   </svg>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="text-center mt-10 flex justify-center items-center">
+          <button
+            class="bg-none border border-primary-100 text-primary px-6 py-2.5 rounded-full text-base font-medium hover:bg-primary-700 hover:text-white transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+            Lihat Semua
+          </button>
         </div>
       </section>
 
@@ -1237,242 +750,77 @@
       </script>
 
       <!-- FAQ Section -->
-      <section id="faq" class="py-20 bg-white">
+      <section id="faq" class="py-16 lg:py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-start">
             <!-- Left Content -->
-            <div class="space-y-8">
+            <div class="space-y-6 lg:space-y-8 text-center lg:text-left">
               <!-- Badge -->
-              <div class="inline-flex items-center justify-center">
-                <div
-                  class="flex items-center bg-[#F0F8FF] border border-[#B8D4ED] rounded-full px-4 py-2"
-                >
-                  <div
-                    class="w-3 h-3 bg-primary border-[2.5px] border-[#B8D4ED] rounded-full mr-3"
-                  ></div>
+              <div class="inline-flex items-center justify-center lg:justify-start">
+                <div class="flex items-center bg-primary-50 border border-primary-100 rounded-full px-4 py-2">
+                  <div class="w-3 h-3 bg-primary border-[2.5px] border-primary-100 rounded-full mr-3"></div>
                   <span class="text-sm font-medium text-primary">FAQs</span>
                 </div>
               </div>
 
               <!-- Title -->
-              <h2
-                class="text-3xl lg:text-4xl font-semibold leading-tight text-[#171717]"
-              >
-                <span class="text-primary">Want your questions</span>
+              <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold leading-tight text-neutral-900">
+                <span class="text-primary-500">Want your questions</span>
                 answered quickly?
               </h2>
 
               <!-- Description -->
-              <p
-                class="text-neutral-700 text-base font-medium max-w-2xl leading-relaxed"
-              >
-                Take a look at our FAQ's below, or book a call above.
-              </p>
+              <p class="text-neutral-700 text-sm sm:text-base font-medium max-w-2xl leading-relaxed">Temukan jawaban dari pertanyaan yang sering diajukan di sini</p>
             </div>
 
             <!-- Right Content - FAQ Accordion -->
-            <div class="space-y-4">
+            <div class="space-y-3 lg:space-y-4">
               <!-- FAQ Item 1 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq1"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Layanan apa saja yang Julian Production tawarkan?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
+              <div class="bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-4 lg:px-6 flex items-center justify-between focus:outline-none" data-target="faq1">
+                  <h3 class="text-sm lg:text-lg font-normal text-neutral-700 pr-4">Apa saja layanan yang disediakan oleh Julian Production?</h3>
+                  <svg class="faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <div
-                  id="faq1"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
-                  <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Kami menangani event B2B dan B2C: Wedding, Corporate
-                      Events (gathering, seminar, product launch), Exhibition &
-                      Concert, serta Private Events (ulang tahun, engagement).
-                      Kami juga menyediakan jasa promosi, concept developing,
-                      dan tour & travel support.
+                <div id="faq1" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
+                  <div class="px-4 lg:px-6 pb-4 lg:pb-6">
+                    <p class="text-sm lg:text-base text-neutral-700 leading-relaxed">
+                      Julian Production siap membantu merencanakan dan melaksanakan berbagai jenis acara, mulai dari event korporat, company gathering, konser, brand activation, seminar, workshop, hingga acara khusus lainnya sesuai
+                      kebutuhan Anda.
                     </p>
                   </div>
                 </div>
               </div>
 
               <!-- FAQ Item 2 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq2"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Bagaimana cara minta penawaran (quote)?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
+              <div class="bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-4 lg:px-6 flex items-center justify-between focus:outline-none" data-target="faq2">
+                  <h3 class="text-sm lg:text-lg font-normal text-neutral-700 pr-4">Bagaimana cara menentukan anggaran untuk sebuah event?</h3>
+                  <svg class="faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <div
-                  id="faq2"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
-                  <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Anda dapat menghubungi kami melalui WhatsApp, email, atau
-                      mengisi form konsultasi di website kami. Tim kami akan
-                      merespon dalam 24 jam dan mengatur meeting untuk membahas
-                      kebutuhan acara Anda secara detail sebelum memberikan
-                      penawaran yang sesuai.
+                <div id="faq2" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
+                  <div class="px-4 lg:px-6 pb-4 lg:pb-6">
+                    <p class="text-sm lg:text-base text-neutral-700 leading-relaxed">
+                      Anggaran disesuaikan dengan konsep acara, jumlah tamu, lokasi, durasi, serta kebutuhan teknis dan kreatif lainnya. Kami akan memberikan panduan serta rekomendasi agar semua tetap sesuai dengan budget Anda.
                     </p>
                   </div>
                 </div>
               </div>
 
               <!-- FAQ Item 3 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq3"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Berapa lama lead time yang dibutuhkan?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
+              <div class="bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-4 lg:px-6 flex items-center justify-between focus:outline-none" data-target="faq3">
+                  <h3 class="text-sm lg:text-lg font-normal text-neutral-700 pr-4">Apakah Julian Production melayani event di luar kota?</h3>
+                  <svg class="faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
-                <div
-                  id="faq3"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
-                  <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Lead time tergantung skala acara. Untuk event kecil
-                      minimal 2 minggu, event menengah 1-2 bulan, dan event
-                      besar 3-6 bulan. Namun kami juga bisa menangani event
-                      dadakan dengan koordinasi intensif, tergantung
-                      ketersediaan tim dan vendor.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- FAQ Item 4 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq4"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Apa saja yang termasuk dalam paket layanan?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
-                  </svg>
-                </button>
-                <div
-                  id="faq4"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
-                  <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Paket layanan mencakup konsultasi awal, perencanaan event,
-                      koordinasi vendor, manajemen timeline, setup venue,
-                      koordinator pada hari H, dokumentasi, dan evaluasi
-                      post-event. Paket dapat disesuaikan dengan kebutuhan dan
-                      budget klien.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- FAQ Item 5 - Closed -->
-              <div
-                class="bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <button
-                  class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none"
-                  data-target="faq5"
-                >
-                  <h3 class="text-lg font-normal text-[#404040] pr-4">
-                    Apakah melayani event di luar Yogyakarta?
-                  </h3>
-                  <svg
-                    class="faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path>
-                  </svg>
-                </button>
-                <div
-                  id="faq5"
-                  class="faq-content max-h-0 overflow-hidden transition-all duration-500"
-                >
-                  <div class="px-6 pb-6">
-                    <p class="text-[#404040] leading-relaxed">
-                      Ya, kami melayani event di seluruh Indonesia. Untuk event
-                      di luar Yogyakarta, akan ada tambahan biaya transportasi
-                      dan akomodasi tim. Kami memiliki jaringan vendor partner
-                      di berbagai kota untuk memastikan kualitas pelayanan tetap
-                      optimal.
-                    </p>
+                <div id="faq3" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
+                  <div class="px-4 lg:px-6 pb-4 lg:pb-6">
+                    <p class="text-sm lg:text-base text-neutral-700 leading-relaxed">Kami berpengalaman menangani acara di berbagai kota di Indonesia dan siap menyesuaikan kebutuhan Anda di lokasi mana pun.</p>
                   </div>
                 </div>
               </div>
@@ -1493,14 +841,12 @@
               const parentDiv = this.parentElement;
 
               // Check if this FAQ is currently open
-              const isOpen =
-                content.style.maxHeight && content.style.maxHeight !== "0px";
+              const isOpen = content.style.maxHeight && content.style.maxHeight !== "0px";
 
               // Close all other FAQs
               faqTriggers.forEach((otherTrigger) => {
                 if (otherTrigger !== this) {
-                  const otherTargetId =
-                    otherTrigger.getAttribute("data-target");
+                  const otherTargetId = otherTrigger.getAttribute("data-target");
                   const otherContent = document.getElementById(otherTargetId);
                   const otherIcon = otherTrigger.querySelector(".faq-icon");
                   const otherParent = otherTrigger.parentElement;
@@ -1514,16 +860,12 @@
 
                   // Reset styling to closed state
                   if (otherParent.classList.contains("bg-primary")) {
-                    otherParent.className =
-                      "bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
+                    otherParent.className = "bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
                     const otherTitle = otherTrigger.querySelector("h3");
-                    otherTitle.className =
-                      "text-lg font-normal text-[#404040] pr-4";
-                    otherIcon.className =
-                      "faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0";
-                    const otherContent =
-                      otherTrigger.nextElementSibling.querySelector("p");
-                    otherContent.className = "text-[#404040] leading-relaxed";
+                    otherTitle.className = "text-sm lg:text-lg font-normal text-neutral-700 pr-4";
+                    otherIcon.className = "faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0";
+                    const otherContent = otherTrigger.nextElementSibling.querySelector("p");
+                    otherContent.className = "text-sm lg:text-base text-neutral-700 leading-relaxed";
                   }
                 }
               });
@@ -1535,14 +877,12 @@
                 icon.style.color = "#404040";
 
                 // Change to closed styling
-                parentDiv.className =
-                  "bg-white border border-[#B8D4ED] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
+                parentDiv.className = "bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
                 const title = this.querySelector("h3");
-                title.className = "text-lg font-normal text-[#404040] pr-4";
-                icon.className =
-                  "faq-icon w-6 h-6 text-[#404040] transform transition-transform duration-300 flex-shrink-0";
+                title.className = "text-sm lg:text-lg font-normal text-neutral-700 pr-4";
+                icon.className = "faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0";
                 const contentText = this.nextElementSibling.querySelector("p");
-                contentText.className = "text-[#404040] leading-relaxed";
+                contentText.className = "text-sm lg:text-base text-neutral-700 leading-relaxed";
               } else {
                 // Open this FAQ
                 content.style.maxHeight = content.scrollHeight + "px";
@@ -1550,14 +890,12 @@
                 icon.style.color = "white";
 
                 // Change to open styling
-                parentDiv.className =
-                  "bg-primary rounded-2xl overflow-hidden shadow-lg transition-all duration-300";
+                parentDiv.className = "bg-primary rounded-2xl overflow-hidden shadow-lg transition-all duration-300";
                 const title = this.querySelector("h3");
-                title.className = "text-lg font-semibold text-white pr-4";
-                icon.className =
-                  "faq-icon w-6 h-6 text-white transform rotate-180 transition-transform duration-300 flex-shrink-0";
+                title.className = "text-sm lg:text-lg font-semibold text-white pr-4";
+                icon.className = "faq-icon w-5 h-5 lg:w-6 lg:h-6 text-white transform rotate-180 transition-transform duration-300 flex-shrink-0";
                 const contentText = this.nextElementSibling.querySelector("p");
-                contentText.className = "text-white leading-relaxed";
+                contentText.className = "text-sm lg:text-base text-white leading-relaxed";
               }
             });
           });
@@ -1565,49 +903,32 @@
       </script>
 
       <!-- Banner Section -->
-      <section class="py-16 lg:py-20">
+      <section class="py-12 lg:py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="relative rounded-3xl overflow-hidden shadow-2xl">
+          <div class="relative rounded-2xl lg:rounded-3xl overflow-hidden shadow-2xl">
             <!-- Background Image -->
             <div class="absolute inset-0">
-              <img
-                src="./src/img/banner.jpg"
-                alt="Event Banner"
-                class="w-full h-full object-cover"
-              />
+              <img src="./src/img/banner.jpg" alt="Event Banner" class="w-full h-full object-cover" />
               <!-- Dark Overlay -->
-              <div
-                class="absolute inset-0"
-                style="background-color: #0c1c2a; opacity: 0.8"
-              ></div>
+              <div class="absolute inset-0" style="background-color: #0c1c2a; opacity: 0.8"></div>
             </div>
 
             <!-- Content -->
-            <div
-              class="relative z-10 px-8 py-16 sm:px-12 sm:py-20 lg:px-16 lg:py-24"
-            >
-              <div class="max-w-4xl">
+            <div class="relative z-10 px-6 py-12 sm:px-8 sm:py-16 lg:px-16 lg:py-24">
+              <div class="max-w-4xl text-center lg:text-left">
                 <!-- Main Heading -->
-                <h2
-                  class="text-2xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6"
-                >
+                <h2 class="text-xl sm:text-3xl lg:text-6xl font-semibold text-white mb-4 lg:mb-6">
                   Ready to Create Your<br class="hidden sm:block" />
                   Success Story?
                 </h2>
 
                 <!-- Subtitle -->
-                <p
-                  class="text-base text-[#D4D4D4] leading-relaxed mb-10 max-w-2xl"
-                >
-                  Join our growing list of satisfied clients and let us bring
-                  your event vision to life.
-                </p>
+                <p class="text-sm sm:text-base text-[#D4D4D4] leading-relaxed mb-8 lg:mb-10 max-w-2xl mx-auto lg:mx-0">Kami siap mewujudkan event Anda menjadi pengalaman berkesan</p>
 
                 <!-- CTA Button -->
-                <div class="flex flex-col sm:flex-row gap-4">
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                   <button
-                    class="bg-primary text-white px-6 py-4 rounded-full font-medium text-sm hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center justify-center"
-                  >
+                    class="bg-primary text-white px-6 py-3 lg:py-4 rounded-full font-medium text-sm hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center justify-center">
                     Buat Event
                   </button>
                 </div>
@@ -1617,123 +938,101 @@
         </div>
       </section>
     </main>
-    <footer class="bg-[#0A192F] text-white">
-      <div class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-20 lg:py-24">
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 justify-between"
-        >
-          <!-- Company Information -->
-          <div class="lg:col-span-1">
-            <div class="flex flex-col space-y-4">
+    <footer class="bg-primary-900 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24">
+        <div class="flex flex-col lg:flex-row justify-between gap-16 lg:gap-20">
+          <!-- Left Side - Company Information -->
+          <div class="lg:max-w-sm">
+            <div class="flex flex-col space-y-6">
               <!-- Logo -->
               <div class="flex items-center">
-                <img
-                  src="./src/img/logo-white.png"
-                  alt="Julian Production Logo"
-                  class="h-8 w-auto"
-                />
+                <div class="flex items-center">
+                  <img src="./src/img/logo-white.png" alt="Logo" class="w-full" />
+                </div>
               </div>
 
               <!-- Description -->
-              <p class="text-white text-base leading-relaxed mb-6">
-                Professional event organizing services since 2020. We bring
-                ideas to life through creative and flawless execution.
-              </p>
+              <p class="text-neutral-300 text-base leading-relaxed">Professional event organizing services since 2020. We bring ideas to life through creative and flawless execution.</p>
 
               <!-- Social Media Icons -->
               <div class="flex space-x-4">
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                >
+                <a href="#" class="text-white hover:text-gray-300 transition-colors">
                   <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path
-                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
-                    />
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                   </svg>
                 </a>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                >
+                <a href="#" class="text-white hover:text-gray-300 transition-colors">
                   <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path
-                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-                    />
+                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                   </svg>
                 </a>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                >
+                <a href="#" class="text-white hover:text-gray-300 transition-colors">
                   <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path
-                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
-                    />
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                   </svg>
                 </a>
               </div>
             </div>
           </div>
 
-          <!-- Our Services -->
-          <div>
-            <h4 class="text-lg font-semibold text-white mb-6">Our Services</h4>
-            <ul class="space-y-3">
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >About Us</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >Blog</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
+          <!-- Right Side - Menu Sections -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12">
+            <!-- Navigation -->
+            <div>
+              <h4 class="text-2xl font-medium text-white mb-6">Navigation</h4>
+              <ul class="space-y-3">
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">About</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Service</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Contact</a>
+                </li>
+              </ul>
+            </div>
 
-          <!-- Legal -->
-          <div>
-            <h4 class="text-lg font-semibold text-white mb-6">Legal</h4>
-            <ul class="space-y-3">
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >Privacy Policy</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-white hover:text-gray-300 transition-colors"
-                  >Terms of Service</a
-                >
-              </li>
-            </ul>
-          </div>
+            <!-- Our Services -->
+            <div>
+              <h4 class="text-2xl font-medium text-white mb-6">Our Services</h4>
+              <ul class="space-y-3">
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Event Organizer</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Event Management</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Event Promotor</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Promotional Branding</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Conceptor</a>
+                </li>
+                <li>
+                  <a href="#" class="text-neutral-300 transition-colors">Tour & Travel</a>
+                </li>
+              </ul>
+            </div>
 
-          <!-- Get Started -->
-          <div>
-            <h4 class="text-lg font-semibold text-white mb-6">Get Started</h4>
-            <div class="flex justify-center lg:justify-start">
-              <button
-                class="bg-primary text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-              >
-                Buat Event
-              </button>
+            <!-- Get Started -->
+            <div>
+              <h4 class="text-2xl font-medium text-white mb-6">Get Started</h4>
+              <div class="flex justify-start">
+                <button class="bg-primary text-white px-8 py-3 text-base font-medium rounded-full hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">Buat Event</button>
+              </div>
             </div>
           </div>
         </div>
@@ -1741,7 +1040,7 @@
 
       <!-- Bottom Section -->
       <div class="border-t border-gray-600">
-        <div class="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div class="text-center">
             <p class="text-white text-sm">© 2025. All rights reserved.</p>
           </div>

@@ -235,8 +235,8 @@
           <div class="text-center mb-12">
             <!-- Badge -->
             <div class="inline-flex items-center justify-center mb-6">
-              <div class="flex items-center bg-[#F0F8FF] border border-[#B8D4ED] rounded-full px-4 py-2">
-                <div class="w-3 h-3 bg-primary border-[2.5px] border-[#B8D4ED] rounded-full mr-3"></div>
+              <div class="flex items-center bg-primary-50 border border-primary-100 rounded-full px-4 py-2">
+                <div class="w-3 h-3 bg-primary border-[2.5px] border-primary-100 rounded-full mr-3"></div>
                 <span class="text-sm font-medium text-primary">Contact Us</span>
               </div>
             </div>
@@ -374,117 +374,77 @@
       </section>
 
       <!-- FAQ Section -->
-      <section id="faq" class="py-20 bg-white">
+      <section id="faq" class="py-16 lg:py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-start">
             <!-- Left Content -->
-            <div class="space-y-8">
+            <div class="space-y-6 lg:space-y-8 text-center lg:text-left">
               <!-- Badge -->
-              <div class="inline-flex items-center justify-center">
+              <div class="inline-flex items-center justify-center lg:justify-start">
                 <div class="flex items-center bg-primary-50 border border-primary-100 rounded-full px-4 py-2">
-                  <div class="w-3 h-3 bg-primary-500 border-[2.5px] border-primary-100 rounded-full mr-3"></div>
+                  <div class="w-3 h-3 bg-primary border-[2.5px] border-primary-100 rounded-full mr-3"></div>
                   <span class="text-sm font-medium text-primary">FAQs</span>
                 </div>
               </div>
 
               <!-- Title -->
-              <h2 class="text-3xl lg:text-4xl font-semibold leading-tight text-neutral-900">
-                <span class="text-primary">Want your questions</span>
+              <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold leading-tight text-neutral-900">
+                <span class="text-primary-500">Want your questions</span>
                 answered quickly?
               </h2>
 
               <!-- Description -->
-              <p class="text-neutral-700 text-base font-medium max-w-2xl leading-relaxed">Take a look at our FAQ's below, or book a call above.</p>
+              <p class="text-neutral-700 text-sm sm:text-base font-medium max-w-2xl leading-relaxed">Temukan jawaban dari pertanyaan yang sering diajukan di sini</p>
             </div>
 
             <!-- Right Content - FAQ Accordion -->
-            <div class="space-y-4">
+            <div class="space-y-3 lg:space-y-4">
               <!-- FAQ Item 1 - Closed -->
-              <div class="bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
-                <button class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none" data-target="faq1">
-                  <h3 class="text-lg font-normal text-neutral-700 pr-4">Layanan apa saja yang Julian Production tawarkan?</h3>
-                  <svg class="faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-4 lg:px-6 flex items-center justify-between focus:outline-none" data-target="faq1">
+                  <h3 class="text-sm lg:text-lg font-normal text-neutral-700 pr-4">Apa saja layanan yang disediakan oleh Julian Production?</h3>
+                  <svg class="faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
                 <div id="faq1" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
-                  <div class="px-6 pb-6">
-                    <p class="text-neutral-700 leading-relaxed">
-                      Kami menangani event B2B dan B2C: Wedding, Corporate Events (gathering, seminar, product launch), Exhibition & Concert, serta Private Events (ulang tahun, engagement). Kami juga menyediakan jasa promosi, concept
-                      developing, dan tour & travel support.
+                  <div class="px-4 lg:px-6 pb-4 lg:pb-6">
+                    <p class="text-sm lg:text-base text-neutral-700 leading-relaxed">
+                      Julian Production siap membantu merencanakan dan melaksanakan berbagai jenis acara, mulai dari event korporat, company gathering, konser, brand activation, seminar, workshop, hingga acara khusus lainnya sesuai
+                      kebutuhan Anda.
                     </p>
                   </div>
                 </div>
               </div>
 
               <!-- FAQ Item 2 - Closed -->
-              <div class="bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
-                <button class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none" data-target="faq2">
-                  <h3 class="text-lg font-normal text-neutral-700 pr-4">Bagaimana cara minta penawaran (quote)?</h3>
-                  <svg class="faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-4 lg:px-6 flex items-center justify-between focus:outline-none" data-target="faq2">
+                  <h3 class="text-sm lg:text-lg font-normal text-neutral-700 pr-4">Bagaimana cara menentukan anggaran untuk sebuah event?</h3>
+                  <svg class="faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
                 <div id="faq2" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
-                  <div class="px-6 pb-6">
-                    <p class="text-neutral-700 leading-relaxed">
-                      Anda dapat menghubungi kami melalui WhatsApp, email, atau mengisi form konsultasi di website kami. Tim kami akan merespon dalam 24 jam dan mengatur meeting untuk membahas kebutuhan acara Anda secara detail sebelum
-                      memberikan penawaran yang sesuai.
+                  <div class="px-4 lg:px-6 pb-4 lg:pb-6">
+                    <p class="text-sm lg:text-base text-neutral-700 leading-relaxed">
+                      Anggaran disesuaikan dengan konsep acara, jumlah tamu, lokasi, durasi, serta kebutuhan teknis dan kreatif lainnya. Kami akan memberikan panduan serta rekomendasi agar semua tetap sesuai dengan budget Anda.
                     </p>
                   </div>
                 </div>
               </div>
 
               <!-- FAQ Item 3 - Closed -->
-              <div class="bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
-                <button class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none" data-target="faq3">
-                  <h3 class="text-lg font-normal text-neutral-700 pr-4">Berapa lama lead time yang dibutuhkan?</h3>
-                  <svg class="faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                <button class="faq-trigger w-full text-left py-3 px-4 lg:px-6 flex items-center justify-between focus:outline-none" data-target="faq3">
+                  <h3 class="text-sm lg:text-lg font-normal text-neutral-700 pr-4">Apakah Julian Production melayani event di luar kota?</h3>
+                  <svg class="faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                   </svg>
                 </button>
                 <div id="faq3" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
-                  <div class="px-6 pb-6">
-                    <p class="text-neutral-700 leading-relaxed">
-                      Lead time tergantung skala acara. Untuk event kecil minimal 2 minggu, event menengah 1-2 bulan, dan event besar 3-6 bulan. Namun kami juga bisa menangani event dadakan dengan koordinasi intensif, tergantung
-                      ketersediaan tim dan vendor.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- FAQ Item 4 - Closed -->
-              <div class="bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
-                <button class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none" data-target="faq4">
-                  <h3 class="text-lg font-normal text-neutral-700 pr-4">Apa saja yang termasuk dalam paket layanan?</h3>
-                  <svg class="faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-                </button>
-                <div id="faq4" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
-                  <div class="px-6 pb-6">
-                    <p class="text-neutral-700 leading-relaxed">
-                      Paket layanan mencakup konsultasi awal, perencanaan event, koordinasi vendor, manajemen timeline, setup venue, koordinator pada hari H, dokumentasi, dan evaluasi post-event. Paket dapat disesuaikan dengan kebutuhan dan
-                      budget klien.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- FAQ Item 5 - Closed -->
-              <div class="bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
-                <button class="faq-trigger w-full text-left py-3 px-6 flex items-center justify-between focus:outline-none" data-target="faq5">
-                  <h3 class="text-lg font-normal text-neutral-700 pr-4">Apakah melayani event di luar Yogyakarta?</h3>
-                  <svg class="faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                  </svg>
-                </button>
-                <div id="faq5" class="faq-content max-h-0 overflow-hidden transition-all duration-500">
-                  <div class="px-6 pb-6">
-                    <p class="text-neutral-700 leading-relaxed">
-                      Ya, kami melayani event di seluruh Indonesia. Untuk event di luar Yogyakarta, akan ada tambahan biaya transportasi dan akomodasi tim. Kami memiliki jaringan vendor partner di berbagai kota untuk memastikan kualitas
-                      pelayanan tetap optimal.
-                    </p>
+                  <div class="px-4 lg:px-6 pb-4 lg:pb-6">
+                    <p class="text-sm lg:text-base text-neutral-700 leading-relaxed">Kami berpengalaman menangani acara di berbagai kota di Indonesia dan siap menyesuaikan kebutuhan Anda di lokasi mana pun.</p>
                   </div>
                 </div>
               </div>
@@ -524,12 +484,12 @@
 
                   // Reset styling to closed state
                   if (otherParent.classList.contains("bg-primary")) {
-                    otherParent.className = "bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
+                    otherParent.className = "bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
                     const otherTitle = otherTrigger.querySelector("h3");
-                    otherTitle.className = "text-lg font-normal text-neutral-700 pr-4";
-                    otherIcon.className = "faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0";
+                    otherTitle.className = "text-sm lg:text-lg font-normal text-neutral-700 pr-4";
+                    otherIcon.className = "faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0";
                     const otherContent = otherTrigger.nextElementSibling.querySelector("p");
-                    otherContent.className = "text-neutral-700 leading-relaxed";
+                    otherContent.className = "text-sm lg:text-base text-neutral-700 leading-relaxed";
                   }
                 }
               });
@@ -541,12 +501,12 @@
                 icon.style.color = "#404040";
 
                 // Change to closed styling
-                parentDiv.className = "bg-white border border-[#B8D4E rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
+                parentDiv.className = "bg-white border border-primary-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300";
                 const title = this.querySelector("h3");
-                title.className = "text-lg font-normal text-neutral-700 pr-4";
-                icon.className = "faq-icon w-6 h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0";
+                title.className = "text-sm lg:text-lg font-normal text-neutral-700 pr-4";
+                icon.className = "faq-icon w-5 h-5 lg:w-6 lg:h-6 text-neutral-700 transform transition-transform duration-300 flex-shrink-0";
                 const contentText = this.nextElementSibling.querySelector("p");
-                contentText.className = "text-neutral-700 leading-relaxed";
+                contentText.className = "text-sm lg:text-base text-neutral-700 leading-relaxed";
               } else {
                 // Open this FAQ
                 content.style.maxHeight = content.scrollHeight + "px";
@@ -556,10 +516,10 @@
                 // Change to open styling
                 parentDiv.className = "bg-primary rounded-2xl overflow-hidden shadow-lg transition-all duration-300";
                 const title = this.querySelector("h3");
-                title.className = "text-lg font-semibold text-white pr-4";
-                icon.className = "faq-icon w-6 h-6 text-white transform rotate-180 transition-transform duration-300 flex-shrink-0";
+                title.className = "text-sm lg:text-lg font-semibold text-white pr-4";
+                icon.className = "faq-icon w-5 h-5 lg:w-6 lg:h-6 text-white transform rotate-180 transition-transform duration-300 flex-shrink-0";
                 const contentText = this.nextElementSibling.querySelector("p");
-                contentText.className = "text-white leading-relaxed";
+                contentText.className = "text-sm lg:text-base text-white leading-relaxed";
               }
             });
           });
@@ -567,9 +527,9 @@
       </script>
 
       <!-- Banner Section -->
-      <section class="py-16 lg:py-20">
+      <section class="py-12 lg:py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="relative rounded-3xl overflow-hidden shadow-2xl">
+          <div class="relative rounded-2xl lg:rounded-3xl overflow-hidden shadow-2xl">
             <!-- Background Image -->
             <div class="absolute inset-0">
               <img src="./src/img/banner.jpg" alt="Event Banner" class="w-full h-full object-cover" />
@@ -578,21 +538,21 @@
             </div>
 
             <!-- Content -->
-            <div class="relative z-10 px-8 py-16 sm:px-12 sm:py-20 lg:px-16 lg:py-24">
-              <div class="max-w-4xl">
+            <div class="relative z-10 px-6 py-12 sm:px-8 sm:py-16 lg:px-16 lg:py-24">
+              <div class="max-w-4xl text-center lg:text-left">
                 <!-- Main Heading -->
-                <h2 class="text-2xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6">
+                <h2 class="text-xl sm:text-3xl lg:text-6xl font-semibold text-white mb-4 lg:mb-6">
                   Ready to Create Your<br class="hidden sm:block" />
                   Success Story?
                 </h2>
 
                 <!-- Subtitle -->
-                <p class="text-base text-[#D4D4D4] leading-relaxed mb-10 max-w-2xl">Join our growing list of satisfied clients and let us bring your event vision to life.</p>
+                <p class="text-sm sm:text-base text-[#D4D4D4] leading-relaxed mb-8 lg:mb-10 max-w-2xl mx-auto lg:mx-0">Kami siap mewujudkan event Anda menjadi pengalaman berkesan</p>
 
                 <!-- CTA Button -->
-                <div class="flex flex-col sm:flex-row gap-4">
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                   <button
-                    class="bg-primary text-white px-6 py-4 rounded-full font-medium text-sm hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center justify-center">
+                    class="bg-primary text-white px-6 py-3 lg:py-4 rounded-full font-medium text-sm hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center justify-center">
                     Buat Event
                   </button>
                 </div>
